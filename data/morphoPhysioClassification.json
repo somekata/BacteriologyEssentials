@@ -10,7 +10,12 @@
             "label": "chain（連鎖）",
             "items": [
               "strep-pneumo-001",
-              "enterococcus-001"
+              "enterococcus-genus-001",
+              "strep-agalactiae-001",
+              "strep-pyogenes-001",
+              "streptococcus-genus-001",
+              "enterococcus-faecalis-001",
+              "enterococcus-faecium-001"
             ]
           },
           {
@@ -28,7 +33,7 @@
           {
             "label": "小桿菌",
             "items": [
-              "haemophilus-001",
+              "haemophilus-influenzae-001",
               "bordetella-001"
             ]
           },
@@ -39,14 +44,17 @@
                 "label": "腸内細菌目細菌",
                 "items": [
                   "ecoli-001",
-                  "klebsiella-001",
-                  "enterobacter-001"
+                  "klebsiella-pneumoniae-001",
+                  "enterobacter-001",
+                  "salmonella-enterica-001",
+                  "salmonella-typhi-001",
+                  "salmonella-paratyphi-001"
                 ]
               },
               {
                 "label": "その他のブドウ糖発酵菌",
                 "items": [
-                  "vibrio-001",
+                  "vibrio-cholerae-001",
                   "aeromonas-001"
                 ]
               }
@@ -55,8 +63,8 @@
           {
             "label": "ブドウ糖非発酵菌",
             "items": [
-              "pseudomonas-001",
-              "acinetobacter-001",
+              "pseudomonas-aeruginosa-001",
+              "acinetobacter-baumannii-001",
               "stenotrophomonas-001"
             ]
           }

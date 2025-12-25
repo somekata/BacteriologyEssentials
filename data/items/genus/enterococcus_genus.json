@@ -12,5 +12,5 @@
     "biosafety": "BSL-2",
     "lpsn": "https://lpsn.dsmz.de/genus/enterococcus"
   },
-  "related": ["vre-001"]
+  "related": ["vre-001", "enterococcus-faecalis-001", "enterococcus-faecium-001"]
 }

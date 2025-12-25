@@ -1,0 +1,21 @@
+{
+  "id": "klebsiella-pneumoniae-001",
+  "title": "肺炎桿菌",
+  "entryType": "species",
+  "taxonGenus": "klebsiella",
+  "species": "pneumoniae",
+  "importance": 4,
+  "tags": ["GNR", "腸内細菌目", "莢膜", "肺炎", "尿路感染症"],
+  "summary": "莢膜を有するグラム陰性桿菌で、市中・院内感染症の原因となる。",
+  "body": {
+    "bacteriology": "グラム陰性桿菌でブドウ糖発酵能をもつ腸内細菌目細菌。厚い莢膜を有し、粘稠性コロニーを形成する。",
+    "clinical": "肺炎（典型例では大葉性肺炎の原因となる）、尿路感染症、菌血症の原因菌。特に糖尿病やアルコール依存症患者で重症肺炎を起こしやすい。\n近年、ESBL産生株やカルバペネム耐性株の増加が問題となっている。",
+    "diagnosis": "培養による同定と薬剤感受性試験が基本。",
+    "treatment": "感受性に基づく抗菌薬選択が必要。ESBL産生株やカルバペネム耐性株の増加が問題となっている。",
+    "infectionControl": "院内感染対策として接触予防策が重要。",
+    "law": "カルバペネム耐性腸内細菌目感染症は感染症法上の五類感染症。",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/species/klebsiella-pneumoniae"
+  },
+  "related": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "salmonella-paratyphi-001",
+  "title": "パラチフス菌",
+  "entryType": "pathotype",
+  "baseSpecies": "salmonella-enterica-001",
+  "labels": ["パラチフス"],
+  "importance": 4,
+  "tags": ["GNR", "下痢", "発熱", "腸管感染症"],
+  "summary": "パラチフスの原因菌",
+  "body": {
+    "bacteriology": "サルモネラ属の一種で、グラム陰性桿菌。Paratyphi Aがパラチフスの原因菌。BとCは感染症法上の対象外。",
+    "clinical": "腸チフスに類似した症状を呈するが、比較的軽症であることが多い。",
+    "infectionControl": "食品由来感染に注意。",
+    "law": "三類。就業制限。",
+    "biosafety": "BSL-2"
+  },
+  "related": ["salmonella-enterica-001", "salmonella-paratyphi-001"]
+}

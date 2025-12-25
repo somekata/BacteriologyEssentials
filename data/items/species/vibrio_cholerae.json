@@ -1,0 +1,21 @@
+{
+  "id": "vibrio-cholerae-001",
+  "title": "コレラ菌",
+  "entryType": "species",
+  "taxonGenus": "vibrio",
+  "species": "cholerae",
+  "importance": 4,
+  "tags": ["GNR", "湾曲菌", "食中毒", "下痢症"],
+  "summary": "激しい水様性下痢を引き起こす腸管感染症の原因菌。",
+  "body": {
+    "bacteriology": "グラム陰性の湾曲した桿菌。運動性を有し、アルカリ性環境で増殖しやすい。",
+    "clinical": "コレラ毒素により大量の水様性下痢を起こし、脱水を来す。",
+    "diagnosis": "便培養による同定が基本。疫学情報が重要。",
+    "treatment": "補液療法が最重要。重症例ではテトラサイクリン系などの抗菌薬が用いられる。",
+    "infectionControl": "水・食品衛生の管理が最重要。",
+    "law": "感染症法二類感染症（コレラ）。",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/species/vibrio-cholerae"
+  },
+  "related": []
+}

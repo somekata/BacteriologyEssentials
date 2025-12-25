@@ -9,5 +9,5 @@
     "clinical": "原因菌を想定した初期治療が重要。",
     "treatment": "重症度に応じた抗菌薬選択。"
   },
-  "related": ["strep-pneumo-001"]
+  "related": ["strep-pneumo-001", "haemophilus-influenzae-001"]
 }

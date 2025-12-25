@@ -8,12 +8,12 @@
   "tags": ["GPC", "cluster", "化膿性", "毒素"],
   "summary": "強い病原性をもつ皮膚常在菌",
   "body": {
-    "bacteriology": "グラム陽性球菌。ブドウ房状配列。カタラーゼ陽性。",
-    "clinical": "皮膚軟部組織感染症、菌血症、心内膜炎。",
-    "diagnosis": "",
-    "treatment": "",
+    "bacteriology": "グラム陽性球菌。ブドウ房状配列。カタラーゼ陽性。コアグラーゼ陽性。",
+    "clinical": "多彩な感染症の原因菌。皮膚軟部組織感染症、菌血症、心内膜炎。",
+    "diagnosis": "塗抹・培養による同定が基本。メチシリン耐性黄色ブドウ球菌（MRSA）に注意。",
+    "treatment": "メチシリン感受性黄色ブドウ球菌（MSSA）ではセファゾリン（第一世代セファロスポリン系薬）が第一選択。MRSAではバンコマイシンなどの抗MRSA薬を使用。\n抗MRSA薬：バンコマイシン、テイコプラニン、リネゾリド、ダプトマイシン、テジゾリド、アルベカシン。",
     "infectionControl": "",
-    "law": "",
+    "law": "VRSA感染症は五類全数、MRSA感染症は5類定点。",
     "biosafety": "BSL-2",
     "lpsn": "https://lpsn.dsmz.de/species/staphylococcus-aureus"
   },

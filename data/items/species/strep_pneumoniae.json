@@ -10,10 +10,10 @@
       "body": {
         "bacteriology": "莢膜を有するグラム陽性双球菌。α溶血性。",
         "clinical": "市中肺炎、髄膜炎、菌血症の主要原因。",
-        "diagnosis": "",
-        "treatment": "",
+        "diagnosis": "肺炎では喀痰検査（塗抹・培養）が基本。喀痰抗原検査や尿中抗原検査も有用。",
+        "treatment": "ペニシリン系薬が第一選択。ただし、ペニシリン耐性も存在する。",
         "infectionControl": "",
-        "law": "感染症法上の全数届出対象ではない。",
+        "law": "侵襲性肺炎球菌感染症は感染症法上の五類感染症。",
         "biosafety": "BSL-2",
         "lpsn": "https://lpsn.dsmz.de/species/streptococcus-pneumoniae"
       },
