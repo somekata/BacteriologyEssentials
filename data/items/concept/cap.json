@@ -1,0 +1,13 @@
+{
+  "id": "cap-001",
+  "title": "市中肺炎（CAP）",
+  "entryType": "concept",
+  "importance": 5,
+  "tags": ["肺炎", "初期治療", "鑑別"],
+  "summary": "市中で発症する肺炎の総称",
+  "body": {
+    "clinical": "原因菌を想定した初期治療が重要。",
+    "treatment": "重症度に応じた抗菌薬選択。"
+  },
+  "related": ["strep-pneumo-001"]
+}

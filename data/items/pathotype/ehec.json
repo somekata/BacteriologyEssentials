@@ -1,0 +1,17 @@
+{
+  "id": "ehec-001",
+  "title": "腸管出血性大腸菌（EHEC）",
+  "entryType": "pathotype",
+  "baseSpecies": "ecoli-001",
+  "labels": ["EHEC", "志賀毒素"],
+  "importance": 4,
+  "tags": ["GNR", "下痢", "HUS"],
+  "summary": "出血性大腸炎を引き起こす大腸菌",
+  "body": {
+    "clinical": "血性下痢、溶血性尿毒症症候群。",
+    "infectionControl": "食品由来感染に注意。",
+    "law": "感染症法三類感染症。",
+    "biosafety": "BSL-2"
+  },
+  "related": ["ecoli-001"]
+}

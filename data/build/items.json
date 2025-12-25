@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "generated_by": "build_items.py",
+    "item_count": 11
+  },
+  "items": [
+    {
+      "id": "ecoli-001",
+      "title": "大腸菌",
+      "entryType": "species",
+      "taxonGenus": "escherichia",
+      "species": "coli",
+      "importance": 5,
+      "tags": [
+        "GNR",
+        "ブドウ糖発酵菌",
+        "腸内細菌目",
+        "UTI"
+      ],
+      "summary": "腸内常在菌だが多彩な感染症の原因",
+      "body": {
+        "bacteriology": "グラム陰性桿菌。ブドウ糖発酵菌。",
+        "clinical": "尿路感染症、敗血症、腹腔内感染。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/escherichia-coli"
+      },
+      "related": [
+        "ehec-001",
+        "upec-001"
+      ]
+    },
+    {
+      "id": "enterococcus-faecalis-001",
+      "title": "腸球菌（フェカリス）",
+      "entryType": "species",
+      "taxonGenus": "enterococcus",
+      "species": "faecalis",
+      "importance": 3,
+      "tags": [
+        "GPC",
+        "chain"
+      ],
+      "summary": "腸内に常在するグラム陽性球菌。フェシウムに比べて耐性は少ない。",
+      "body": {
+        "bacteriology": "グラム陽性球菌。連鎖状。カタラーゼ陰性。",
+        "clinical": "日和見感染症の原因菌。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/enterococcus-faecium"
+      },
+      "related": [
+        "vre-001"
+      ]
+    },
+    {
+      "id": "enterococcus-faecium-001",
+      "title": "腸球菌（フェシウム）",
+      "entryType": "species",
+      "taxonGenus": "enterococcus",
+      "species": "faecium",
+      "importance": 3,
+      "tags": [
+        "GPC",
+        "chain"
+      ],
+      "summary": "腸内に常在するグラム陽性球菌。バンコマイシン耐性がフェカリスよりも多い。",
+      "body": {
+        "bacteriology": "グラム陽性球菌。連鎖状。カタラーゼ陰性。",
+        "clinical": "日和見感染症の原因菌。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/enterococcus-faecium"
+      },
+      "related": [
+        "vre-001"
+      ]
+    },
+    {
+      "id": "staph-aureus-001",
+      "title": "黄色ブドウ球菌",
+      "entryType": "species",
+      "taxonGenus": "staphylococcus",
+      "species": "aureus",
+      "importance": 5,
+      "tags": [
+        "GPC",
+        "cluster",
+        "化膿性",
+        "毒素"
+      ],
+      "summary": "強い病原性をもつ皮膚常在菌",
+      "body": {
+        "bacteriology": "グラム陽性球菌。ブドウ房状配列。カタラーゼ陽性。",
+        "clinical": "皮膚軟部組織感染症、菌血症、心内膜炎。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/staphylococcus-aureus"
+      },
+      "related": [
+        "mrsa-001"
+      ]
+    },
+    {
+      "id": "strep-pneumo-001",
+      "title": "肺炎球菌",
+      "entryType": "species",
+      "taxonGenus": "streptococcus",
+      "species": "pneumoniae",
+      "importance": 5,
+      "tags": [
+        "GPC",
+        "chain",
+        "莢膜",
+        "市中肺炎",
+        "髄膜炎"
+      ],
+      "summary": "市中肺炎の代表的原因菌",
+      "body": {
+        "bacteriology": "莢膜を有するグラム陽性双球菌。α溶血性。",
+        "clinical": "市中肺炎、髄膜炎、菌血症の主要原因。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "感染症法上の全数届出対象ではない。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/streptococcus-pneumoniae"
+      },
+      "related": [
+        "cap-001"
+      ]
+    },
+    {
+      "id": "enterococcus-genus-001",
+      "title": "腸球菌属",
+      "entryType": "genus",
+      "taxonGenus": "enterococcus",
+      "importance": 4,
+      "tags": [
+        "GPC",
+        "chain",
+        "腸内常在菌",
+        "耐性"
+      ],
+      "summary": "属レベルで臨床的に重要なグラム陽性球菌",
+      "body": {
+        "bacteriology": "グラム陽性球菌。胆汁エスクリン陽性。",
+        "clinical": "尿路感染症、菌血症。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/genus/enterococcus"
+      },
+      "related": [
+        "vre-001"
+      ]
+    },
+    {
+      "id": "mrsa-001",
+      "title": "MRSA",
+      "entryType": "clinical_variant",
+      "baseSpecies": "staph-aureus-001",
+      "labels": [
+        "MRSA",
+        "βラクタム耐性"
+      ],
+      "importance": 5,
+      "tags": [
+        "GPC",
+        "cluster",
+        "耐性",
+        "mecA",
+        "PBP2a",
+        "院内感染"
+      ],
+      "summary": "メチシリン耐性黄色ブドウ球菌",
+      "body": {
+        "bacteriology": "黄色ブドウ球菌のメチシリン耐性。mecA遺伝子を獲得しており、PBP2aを産生することでβラクタム系抗菌薬に対する耐性を示す。",
+        "clinical": "院内感染の代表的耐性菌。\n重要な感染症として、血流感染、手術部位感染、肺炎などがある。",
+        "infectionControl": "接触予防策が重要。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "staph-aureus-001"
+      ]
+    },
+    {
+      "id": "vre-001",
+      "title": "VRE",
+      "entryType": "clinical_variant",
+      "baseSpecies": "enterococcus-genus-001",
+      "labels": [
+        "VRE",
+        "バンコマイシン耐性"
+      ],
+      "importance": 4,
+      "tags": [
+        "GPC",
+        "chain",
+        "耐性"
+      ],
+      "summary": "バンコマイシン耐性腸球菌",
+      "body": {
+        "clinical": "院内感染で問題となる。",
+        "infectionControl": "接触予防策が重要。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "enterococcus-genus-001"
+      ]
+    },
+    {
+      "id": "ehec-001",
+      "title": "腸管出血性大腸菌（EHEC）",
+      "entryType": "pathotype",
+      "baseSpecies": "ecoli-001",
+      "labels": [
+        "EHEC",
+        "志賀毒素"
+      ],
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "下痢",
+        "HUS"
+      ],
+      "summary": "出血性大腸炎を引き起こす大腸菌",
+      "body": {
+        "clinical": "血性下痢、溶血性尿毒症症候群。",
+        "infectionControl": "食品由来感染に注意。",
+        "law": "感染症法三類感染症。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "ecoli-001"
+      ]
+    },
+    {
+      "id": "upec-001",
+      "title": "尿路病原性大腸菌（UPEC）",
+      "entryType": "pathotype",
+      "baseSpecies": "ecoli-001",
+      "labels": [
+        "UPEC",
+        "UTI"
+      ],
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "UTI",
+        "線毛"
+      ],
+      "summary": "尿路感染症を起こす大腸菌",
+      "body": {
+        "clinical": "膀胱炎、腎盂腎炎。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "ecoli-001"
+      ]
+    },
+    {
+      "id": "cap-001",
+      "title": "市中肺炎（CAP）",
+      "entryType": "concept",
+      "importance": 5,
+      "tags": [
+        "肺炎",
+        "初期治療",
+        "鑑別"
+      ],
+      "summary": "市中で発症する肺炎の総称",
+      "body": {
+        "clinical": "原因菌を想定した初期治療が重要。",
+        "treatment": "重症度に応じた抗菌薬選択。"
+      },
+      "related": [
+        "strep-pneumo-001"
+      ]
+    }
+  ]
+}

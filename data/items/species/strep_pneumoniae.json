@@ -1,0 +1,21 @@
+    {
+      "id": "strep-pneumo-001",
+      "title": "肺炎球菌",
+      "entryType": "species",
+      "taxonGenus": "streptococcus",
+      "species": "pneumoniae",
+      "importance": 5,
+      "tags": ["GPC", "chain", "莢膜", "市中肺炎", "髄膜炎"],
+      "summary": "市中肺炎の代表的原因菌",
+      "body": {
+        "bacteriology": "莢膜を有するグラム陽性双球菌。α溶血性。",
+        "clinical": "市中肺炎、髄膜炎、菌血症の主要原因。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "感染症法上の全数届出対象ではない。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/streptococcus-pneumoniae"
+      },
+      "related": ["cap-001"]
+    }

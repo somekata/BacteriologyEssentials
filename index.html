@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bacteriology Text</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bacteriology Essentials</h1>
+
+      <input id="searchInput" type="text" placeholder="検索（菌名・タグ）" />
+
+      <select id="importanceFilter">
+        <option value="0">重要度：すべて</option>
+        <option value="5">5以上</option>
+        <option value="4">4以上</option>
+        <option value="3">3以上</option>
+      </select>
+
+      <select id="viewMode">
+        <option value="items">一覧</option>
+        <option value="morpho">形態・性質分類</option>
+      </select>
+    </header>
+
+    <main>
+      <aside id="list"></aside>
+      <section id="content">
+        <p>左から項目を選択してください。</p>
+      </section>
+    </main>
+    <footer>
+      <span>Bacteriology eText</span>
+      <span class="assist">assisted by ChatGPT</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

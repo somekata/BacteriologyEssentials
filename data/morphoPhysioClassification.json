@@ -1,0 +1,126 @@
+{
+  "morphoPhysioClassification": {
+    "title": "形態と性質による分類",
+    "description": "グラム染色・形態・代謝特性などに基づく教育用分類。初期鑑別と思考整理を目的とする。",
+    "groups": [
+      {
+        "label": "GPC（グラム陽性球菌）",
+        "subgroups": [
+          {
+            "label": "chain（連鎖）",
+            "items": [
+              "strep-pneumo-001",
+              "enterococcus-001"
+            ]
+          },
+          {
+            "label": "cluster（ブドウ房状）",
+            "items": [
+              "staph-aureus-001",
+              "mrsa-001"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "GNR（グラム陰性桿菌）",
+        "subgroups": [
+          {
+            "label": "小桿菌",
+            "items": [
+              "haemophilus-001",
+              "bordetella-001"
+            ]
+          },
+          {
+            "label": "ブドウ糖発酵菌",
+            "subgroups": [
+              {
+                "label": "腸内細菌目細菌",
+                "items": [
+                  "ecoli-001",
+                  "klebsiella-001",
+                  "enterobacter-001"
+                ]
+              },
+              {
+                "label": "その他のブドウ糖発酵菌",
+                "items": [
+                  "vibrio-001",
+                  "aeromonas-001"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "ブドウ糖非発酵菌",
+            "items": [
+              "pseudomonas-001",
+              "acinetobacter-001",
+              "stenotrophomonas-001"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "GNC（グラム陰性球菌）",
+        "items": [
+          "neisseria-001"
+        ]
+      },
+      {
+        "label": "GPR（グラム陽性桿菌）",
+        "items": [
+          "bacillus-001",
+          "clostridium-001",
+          "listeria-001"
+        ]
+      },
+      {
+        "label": "嫌気性菌",
+        "items": [
+          "bacteroides-001",
+          "clostridium-001",
+          "fusobacterium-001"
+        ]
+      },
+      {
+        "label": "抗酸菌",
+        "items": [
+          "mycobacterium-tb-001",
+          "mycobacterium-ntm-001"
+        ]
+      },
+      {
+        "label": "放線菌",
+        "items": [
+          "actinomyces-001",
+          "nocardia-001"
+        ]
+      },
+      {
+        "label": "スピリルム",
+        "items": [
+          "campylobacter-001",
+          "helicobacter-001"
+        ]
+      },
+      {
+        "label": "スピロヘータ",
+        "items": [
+          "treponema-001",
+          "borrelia-001",
+          "leptospira-001"
+        ]
+      },
+      {
+        "label": "非定型菌",
+        "items": [
+          "mycoplasma-001",
+          "chlamydia-001",
+          "legionella-001"
+        ]
+      }
+    ]
+  }
+}

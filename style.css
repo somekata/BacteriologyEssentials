@@ -1,0 +1,335 @@
+/* ==================================================
+   Bacteriology Text – Cool & Elegant Theme (FINAL)
+   CSS ONLY / HTML & JS untouched
+   ================================================== */
+
+:root{
+  --bg: #0b0f17;
+  --panel: rgba(255,255,255,0.06);
+  --panel-2: rgba(255,255,255,0.12);
+  --stroke: rgba(255,255,255,0.14);
+
+  --text: rgba(255,255,255,0.95);
+  --muted: rgba(255,255,255,0.65);
+
+  --accent: #6ee7ff;
+  --accent2: #f472b6;
+  --accent3: #a78bfa;
+
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+}
+
+/* ===== Reset ===== */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(900px 420px at 10% 0%, rgba(110,231,255,0.18), transparent 60%),
+    radial-gradient(900px 420px at 90% 10%, rgba(244,114,182,0.18), transparent 60%),
+    linear-gradient(180deg, #05070d, #0b0f17 55%, #05070d);
+}
+
+/* ==================================================
+   Header
+   ================================================== */
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 14px;
+  justify-items: center;
+
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--stroke);
+
+  backdrop-filter: blur(14px);
+  background: rgba(0,0,0,0.55);
+}
+
+/* ===== Title ===== */
+header h1{
+  margin: 0;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-align: center;
+
+  background: linear-gradient(
+    90deg,
+    var(--accent),
+    var(--accent2),
+    var(--accent3)
+  );
+  background-clip: text;              /* ← 追加 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== Controls row ===== */
+header > input,
+header > select{
+  grid-row: 2;
+}
+
+/* 横並び */
+header{
+  grid-template-columns: 1fr;
+}
+
+header > input,
+header > select{
+  display: inline-block;
+  margin: 0 6px;
+}
+
+/* ===== Inputs ===== */
+input,
+select{
+  appearance: none;
+  -webkit-appearance: none;
+
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 999px;
+
+  background: var(--panel-2);
+  color: #ffffff;
+
+  border: 1px solid var(--stroke);
+
+  transition:
+    background .15s ease,
+    border-color .15s ease,
+    box-shadow .15s ease;
+}
+
+input{
+  width: 340px;
+}
+
+select{
+  width: 160px;
+  font-weight: 600;
+}
+
+/* option visibility fix */
+select option{
+  background: #0b0f17;
+  color: #ffffff;
+}
+
+input::placeholder{
+  color: var(--muted);
+}
+
+input:hover,
+select:hover{
+  background: rgba(255,255,255,0.22);
+}
+
+input:focus,
+select:focus{
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(110,231,255,0.28);
+}
+
+/* ==================================================
+   Layout
+   ================================================== */
+
+main{
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  height: calc(100vh - 150px);
+}
+
+/* ===== Left pane ===== */
+aside{
+  width: 340px;
+  padding: 12px;
+
+  overflow-y: auto;
+
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-lg);
+}
+
+/* ===== Item ===== */
+.item{
+  padding: 10px 14px;
+  margin-bottom: 8px;
+
+  background: rgba(255,255,255,0.05);
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+
+  cursor: pointer;
+  transition:
+    background .15s ease,
+    border-color .15s ease,
+    transform .1s ease;
+}
+
+.item:hover{
+  background: rgba(110,231,255,0.12);
+  border-color: rgba(110,231,255,0.35);
+  transform: translateY(-1px);
+}
+
+.item small{
+  color: var(--muted);
+}
+
+/* ===== Group title ===== */
+.group-title{
+  margin: 14px 0 6px;
+  padding: 8px 14px;
+
+  font-weight: 700;
+  border-radius: 999px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(110,231,255,0.28),
+    rgba(167,139,250,0.28)
+  );
+}
+
+/* ==================================================
+   Content
+   ================================================== */
+
+section{
+  flex: 1;
+  padding: 24px;
+
+  overflow-y: auto;
+
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-lg);
+}
+
+/* ===== Typography ===== */
+h2{
+  margin-top: 0;
+  font-size: 26px;
+}
+
+.scientific-name{
+  font-style: italic;
+  color: var(--muted);
+}
+
+.taxonomy{
+  margin: 6px 0 12px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.75);
+}
+
+.taxonomy em{
+  font-style: italic;
+}
+
+/* ===== Clinical concept ===== */
+.clinical-concept{
+  margin: 12px 0;
+  padding: 12px 16px;
+
+  background: rgba(244,114,182,0.10);
+  border-left: 4px solid var(--accent2);
+  border-radius: var(--radius-sm);
+}
+
+/* ===== Links ===== */
+a{
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(110,231,255,0.55);
+}
+
+a:hover{
+  color: var(--accent2);
+}
+
+/* ==================================================
+   Responsive
+   ================================================== */
+
+@media (max-width: 900px){
+  header h1{
+    font-size: 30px;
+  }
+
+  input{
+    width: 100%;
+  }
+
+  select{
+    width: 140px;
+  }
+
+  main{
+    flex-direction: column;
+    height: auto;
+  }
+
+  aside{
+    width: 100%;
+    max-height: 40vh;
+  }
+}
+
+/* ==================================================
+   Footer (minimal & elegant)
+   ================================================== */
+
+footer{
+  margin-top: 16px;
+  padding: 12px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 12px;
+  letter-spacing: 0.5px;
+
+  color: rgba(255,255,255,0.55);
+
+  border-top: 1px solid rgba(255,255,255,0.12);
+  background: linear-gradient(
+    180deg,
+    rgba(0,0,0,0.0),
+    rgba(0,0,0,0.35)
+  );
+}
+
+/* ChatGPT credit */
+footer .assist{
+  font-style: italic;
+  color: rgba(255,255,255,0.45);
+}
+
+/* Mobile */
+@media (max-width: 900px){
+  footer{
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+}

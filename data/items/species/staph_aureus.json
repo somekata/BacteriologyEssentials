@@ -1,0 +1,21 @@
+{
+  "id": "staph-aureus-001",
+  "title": "黄色ブドウ球菌",
+  "entryType": "species",
+  "taxonGenus": "staphylococcus",
+  "species": "aureus",
+  "importance": 5,
+  "tags": ["GPC", "cluster", "化膿性", "毒素"],
+  "summary": "強い病原性をもつ皮膚常在菌",
+  "body": {
+    "bacteriology": "グラム陽性球菌。ブドウ房状配列。カタラーゼ陽性。",
+    "clinical": "皮膚軟部組織感染症、菌血症、心内膜炎。",
+    "diagnosis": "",
+    "treatment": "",
+    "infectionControl": "",
+    "law": "",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/species/staphylococcus-aureus"
+  },
+  "related": ["mrsa-001"]
+}
