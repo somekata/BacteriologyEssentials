@@ -1,9 +1,35 @@
 {
   "meta": {
     "generated_by": "build_items.py",
-    "item_count": 21
+    "item_count": 29
   },
   "items": [
+    {
+      "id": "campylobacter-jejuni-001",
+      "title": "カンピロバクター・ジェジュニ",
+      "entryType": "species",
+      "taxonGenus": "campylobacter",
+      "species": "jejuni",
+      "importance": 4,
+      "tags": [
+        "spirirum",
+        "スピリルム",
+        "食中毒",
+        "下痢症"
+      ],
+      "summary": "鳥の腸内の常在菌。腸管感染症の原因菌。",
+      "body": {
+        "bacteriology": "至適温度はやや高い（42℃程度）。鳥の体温に適応しているためと考えられている。グラム陰性の湾曲した桿菌で、運動性を有する。比較的少ない菌数（数百個程度）でも腸炎を発症するCampylobacter coliも同様の疾患を引き起こす。Campylocacter fetusは血流感染症の原因菌として知られる。",
+        "clinical": "激しい下痢、腹痛、発熱を呈する。ギラン・バレー症候群の原因菌としても知られる。",
+        "diagnosis": "便のグラム染色でわかる唯一の下痢症の原因菌。便培養による同定が基本。疫学情報（鶏肉の摂取など）が重要。",
+        "treatment": "マクロライド系薬が第一選択。ただし、耐性化が問題となっている。",
+        "infectionControl": "鶏肉の十分な加熱が重要。",
+        "law": "感染症法は該当せず。食中毒は食品衛生法の対象。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/campylobacter-jejuni"
+      },
+      "related": []
+    },
     {
       "id": "ecoli-001",
       "title": "大腸菌",
@@ -120,6 +146,32 @@
       ]
     },
     {
+      "id": "helicobacter-pylori-001",
+      "title": "ヘリコバクター・ピロリ",
+      "entryType": "species",
+      "taxonGenus": "helicobacter",
+      "species": "pylori",
+      "importance": 4,
+      "tags": [
+        "spirirum",
+        "スピリルム",
+        "胃潰瘍",
+        "胃癌"
+      ],
+      "summary": "胃粘膜に定着する螺旋状のグラム陰性菌。胃潰瘍や胃癌の原因菌。",
+      "body": {
+        "bacteriology": "グラム陰性の湾曲した桿菌。運動性を有し、尿素分解能をもつ。胃酸の強い酸性環境下でも生存可能で、胃粘膜に定着する。同属のHelicobacter cinaediや Helicobacter fennelliaeは、免疫不全患者を中心に血流感染症の原因菌として知られる。",
+        "clinical": "慢性的な胃炎を引き起こし、胃・十二指腸潰瘍や胃癌・胃MALTリンパ腫の原因としても知られる。免疫性血小板減少性紫斑病（ITP）との関連も指摘されている。",
+        "diagnosis": "内視鏡を用いない検査としては、尿素呼気試験（UBT）、抗体検査、便中抗原検査、内視鏡を用いる検査としては、生検組織の迅速ウレアーゼ試験、病理、培養がある。",
+        "treatment": "一次除菌には、プロトンポンプ阻害薬（PPI）アモキシシリン、クラリスロマイシンを組み合わせたを用いた3剤併用療法（PPI-AC）が一般的。近年は、PPIの代わりにカリウムイオン競合型アシッドブロッカー（P-CAB）であるボノプラザンを用いることが増えている。二次除菌では、クラリスロマイシンをメトロニダゾールに変更したPPI-AM療法が用いられる。",
+        "infectionControl": "鶏肉の十分な加熱が重要。",
+        "law": "感染症法は該当せず。食中毒は食品衛生法の対象。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/helicobacter-pylori"
+      },
+      "related": []
+    },
+    {
       "id": "klebsiella-pneumoniae-001",
       "title": "肺炎桿菌",
       "entryType": "species",
@@ -143,6 +195,139 @@
         "law": "カルバペネム耐性腸内細菌目感染症は感染症法上の五類感染症。",
         "biosafety": "BSL-2",
         "lpsn": "https://lpsn.dsmz.de/species/klebsiella-pneumoniae"
+      },
+      "related": []
+    },
+    {
+      "id": "legionella-pneumophila-001",
+      "title": "レジオネラ・ニューモフィラ",
+      "entryType": "species",
+      "taxonGenus": "legionella",
+      "species": "pneumophila",
+      "importance": 5,
+      "tags": [
+        "非定型菌",
+        "非定型肺炎",
+        "異型肺炎"
+      ],
+      "summary": "非定型肺炎の代表的な原因菌。",
+      "body": {
+        "bacteriology": "臨床検体中の菌はグラム染色で染まらないため、ヒメネス（Gimenez）染色を用いる。好気性のグラム陰性桿菌で、培養には特殊な培地（BCYE-α培地やWYO培地）が必要。",
+        "clinical": "重症の市中肺炎を引き起こす。発熱、頭痛、咳、筋肉痛、下痢などの症状を呈する。水系からのエアロゾル吸入により感染するため、温泉や浴場、冷却塔などが感染源となることがある。",
+        "diagnosis": "尿中抗原検査が迅速で感度も高いが、血清型が限られる。培養やPCR、血清学的検査も行われる。\n*尿中抗原検査：BinaxNOW™ レジオネラは、血清型1LPS抗原を検出する。リボテスト®レジオネラは血清型1のLPS抗原及び血清型1～15のL7/L12抗原を検出する。",
+        "treatment": "マクロライド系薬、テトラサイクリン系薬、ニューキノロン系薬が有効。",
+        "infectionControl": "飛沫感染に注意。",
+        "law": "五類（定点）",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/legionella-pneumophila"
+      },
+      "related": []
+    },
+    {
+      "id": "mycobacterium-avium-001",
+      "title": "マイコバクテリウム・アビウム",
+      "entryType": "species",
+      "taxonGenus": "mycobacterium",
+      "species": "avium",
+      "importance": 4,
+      "tags": [
+        "抗酸菌",
+        "MAC",
+        "非結核性抗酸菌",
+        "NTM"
+      ],
+      "summary": "非結核性抗酸菌の代表的病原体。肺感染症の原因菌。",
+      "body": {
+        "bacteriology": "抗酸菌。細胞壁に脂質が豊富に含まれる。酸素を必要とする好気性菌。倍加時間は約15〜20時間と非常に遅い。培養には特殊な培地（小川培地、MGITなど）を用いる。顕微鏡での確認にはZiehl-Neelsen染色や蛍光染色が用いられる。\n*MGIT: Mycobacteria Growth Indicator Tube",
+        "clinical": "肺MAC症の原因菌として最も多い。慢性進行性の肺感染症を引き起こす。免疫不全患者では、全身性感染症（MAC症）を引き起こすこともある。",
+        "diagnosis": "肺MAC症の診断には、臨床症状、画像所見、喀痰培養による同定が必要である。喀痰培養は3回以上行うことが推奨される。",
+        "treatment": "多剤併用療法が必要。一般的には、クラリスロマイシン（またはアジスロマイシン）、エタンブトール、リファンピシンの3剤併用療法が用いられる。治療期間は12ヶ月以上と長期にわたることが多い。",
+        "infectionControl": "特別な感染対策は不要。",
+        "law": "感染症法は該当せず。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/mycobacterium-avium"
+      },
+      "related": [
+        "mycobacterium-intracellulare-001"
+      ]
+    },
+    {
+      "id": "mycobacterium-intracellulare-001",
+      "title": "マイコバクテリウム・イントラセルラーレ",
+      "entryType": "species",
+      "taxonGenus": "mycobacterium",
+      "species": "intracellulare",
+      "importance": 4,
+      "tags": [
+        "抗酸菌",
+        "MAC",
+        "非結核性抗酸菌",
+        "NTM"
+      ],
+      "summary": "非結核性抗酸菌の代表的病原体。肺感染症の原因菌。",
+      "body": {
+        "bacteriology": "以前は、Mycobacterium aviumとともにMycobacterium avium complex（MAC）を形成するとされていたが、現在は別種とされている。抗酸菌。細胞壁に脂質が豊富に含まれる。酸素を必要とする好気性菌。倍加時間は約15〜20時間と非常に遅い。培養には特殊な培地（小川培地、MGITなど）を用いる。顕微鏡での確認にはZiehl-Neelsen染色や蛍光染色が用いられる。\n*MGIT: Mycobacteria Growth Indicator Tube",
+        "clinical": "肺MAC症の原因菌として最も多い。慢性進行性の肺感染症を引き起こす。免疫不全患者では、全身性感染症（MAC症）を引き起こすこともある。西日本では、Mycobacterium aviumよりも多い。",
+        "diagnosis": "肺MAC症の診断には、臨床症状、画像所見、喀痰培養による同定が必要である。喀痰培養は3回以上行うことが推奨される。",
+        "treatment": "多剤併用療法が必要。一般的には、クラリスロマイシン（またはアジスロマイシン）、エタンブトール、リファンピシンの3剤併用療法が用いられる。治療期間は12ヶ月以上と長期にわたることが多い。",
+        "infectionControl": "特別な感染対策は不要。",
+        "law": "感染症法は該当せず。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/mycobacterium-intracellulare"
+      },
+      "related": [
+        "mycobacterium-avium-001"
+      ]
+    },
+    {
+      "id": "mycobacterium-tuberculosis-001",
+      "title": "結核菌",
+      "entryType": "species",
+      "taxonGenus": "mycobacterium",
+      "species": "tuberculosis",
+      "importance": 5,
+      "tags": [
+        "抗酸菌",
+        "結核",
+        "肺結核",
+        "慢性",
+        "LTBI"
+      ],
+      "summary": "結核の原因菌。肺結核の代表的病原体。",
+      "body": {
+        "bacteriology": "抗酸菌。細胞壁に脂質が豊富に含まれる。酸素を必要とする好気性菌。倍加時間は約15〜20時間と非常に遅い。培養には特殊な培地（小川培地、MGITなど）を用いる。顕微鏡での確認にはZiehl-Neelsen染色や蛍光染色が用いられる。\n*MGIT: Mycobacteria Growth Indicator Tube",
+        "clinical": "主な病型は肺結核である。そのほか、リンパ節結核、骨・関節結核、脳膜結核など多部位に感染する。慢性進行性疾患。飛沫核感染（空気感染）する代表的な病原体である。発病前の感染状態を潜在性結核感染症（LTBI）と称し、治療の対象となる。",
+        "diagnosis": "潜在性結核感染症（LTBI）の診断には、ツベルクリン反応やインターフェロン遊離検査（IGRA）を用いる。肺結核の発病診断には、胸部X線検査などの画像検査と、喀痰検査（塗抹、培養、核酸増幅）による同定が必要。\nツベルクリン反応はPPDを皮内注射し、48〜72時間後に硬結の直径を測定する検査。Mantoux法とも呼ばれる。IGRAは、患者の血液中のT細胞が結核菌抗原に反応して産生するインターフェロンγの量を測定する検査。IGRAはツベルクリン反応に比べて予防接種（BCG接種）歴の影響を受けにくい。\n*IGRA: Interferon-Gamma Release Assay\n*PPD: Purified Protein Derivative\n*BCG: Bacillus Calmette-Guérin\n*コッホ現象: BCG接種の反応が強く早く出現する現象で、結核菌感染を示唆する。乳児での結核感染の発見動機として重要である。",
+        "treatment": "多剤併用療法が必要。標準的な初回治療は、イソニアジド（H）、リファンピシン（R）、エタンブトール（E）、ピラジナミド（Z）の4剤併用療法を2ヶ月、その後イソニアジドとリファンピシンの2剤併用療法を4ヶ月行う（計6ヶ月：2HREZ/4HR）。エタンブトールの代わりにストレプトマイシンを用いることもある。薬剤耐性結核の場合は、より長期間かつ多剤併用療法が必要となる。DOTS（直接服薬確認療法）が推奨される。\n多剤耐性結核治療に用いられる抗菌薬として、ベダキリン、デラマニドがある。\n*DOTS: Directly Observed Treatment, Short-course",
+        "infectionControl": "空気予防策が必要。",
+        "law": "二類",
+        "biosafety": "BSL-3",
+        "lpsn": "https://lpsn.dsmz.de/species/mycobacterium-tuberculosis"
+      },
+      "related": []
+    },
+    {
+      "id": "mycoplasma-pneumoniae-001",
+      "title": "肺炎マイコプラズマ",
+      "entryType": "species",
+      "taxonGenus": "mycoplasma",
+      "species": "pneumoniae",
+      "importance": 5,
+      "tags": [
+        "非定型菌",
+        "非定型肺炎",
+        "異型肺炎"
+      ],
+      "summary": "非定型肺炎の代表的な原因菌。",
+      "body": {
+        "bacteriology": "細胞壁を持たない非常に小さな細菌。培養には特殊な培地が必要で、増殖速度も遅い。",
+        "clinical": "非定型肺炎（異型肺炎）の代表的な原因菌。発熱、頭痛、咽頭痛、咳などの症状を呈する。",
+        "diagnosis": "血清学的検査（抗体検査）が基本。PCRによる分子生物学的検査も可能。",
+        "treatment": "マクロライド系薬、テトラサイクリン系薬、ニューキノロン系薬が有効。",
+        "infectionControl": "飛沫感染に注意。",
+        "law": "五類（定点）",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/mycoplasma-pneumoniae"
       },
       "related": []
     },
@@ -197,7 +382,8 @@
         "lpsn": "https://lpsn.dsmz.de/species/salmonella-enterica"
       },
       "related": [
-        "salmonella-typhi-001"
+        "salmonella-typhi-001",
+        "salmonella-paratyphi-001"
       ]
     },
     {
@@ -313,6 +499,32 @@
       "related": []
     },
     {
+      "id": "treponema-pallidum-001",
+      "title": "トレポネーマ・パリドゥム",
+      "entryType": "species",
+      "taxonGenus": "treponema",
+      "species": "pallidum",
+      "importance": 4,
+      "tags": [
+        "spirocheta",
+        "スピロヘータ",
+        "性感染症",
+        "STI"
+      ],
+      "summary": "梅毒の原因菌。主に性的接触で感染する。",
+      "body": {
+        "bacteriology": "スピロヘータ。非常に細長いらせん状の形態をとる。培養は困難で、動物感染モデル（ウサギ）で増殖させる。",
+        "clinical": "梅毒は、初期（硬性下疳）、二期（発疹、リンパ節腫脹など）、潜伏、三期（ゴム腫、神経梅毒、心血管梅毒など）に分けられる。母子感染も重要である（先天梅毒）。",
+        "diagnosis": "人工培地での培養はできないため、血清学的検査が中心。非特異的検査（RPR、VDRL）と特異的検査（TPHA、FTA-ABSなど）を組み合わせて行う。\n*STS: Syphilis Treponemal Tests\n*RPR: Rapid Plasma Reagin\n*VDRL: Venereal Disease Research Laboratory\n*TPHA: Treponema Pallidum Hemagglutination Assay\n*FTA-ABS: Fluorescent Treponemal Antibody Absorption test",
+        "treatment": "第一選択はペニシリン系薬。アレルギーがある場合は、ドキシサイクリンやアジスロマイシンが用いられることもある。",
+        "infectionControl": "性感染症対策が重要。感染者の治療とパートナーの検査・治療が必要。",
+        "law": "五類（全数）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/treponema-pallidum"
+      },
+      "related": []
+    },
+    {
       "id": "vibrio-cholerae-001",
       "title": "コレラ菌",
       "entryType": "species",
@@ -328,11 +540,11 @@
       "summary": "激しい水様性下痢を引き起こす腸管感染症の原因菌。",
       "body": {
         "bacteriology": "グラム陰性の湾曲した桿菌。運動性を有し、アルカリ性環境で増殖しやすい。",
-        "clinical": "コレラ毒素により大量の水様性下痢を起こし、脱水を来す。",
+        "clinical": "コレラ毒素（CT）により大量の水様性下痢を起こし、脱水を来す。コレラ毒素はAB5型毒素で、腸管上皮細胞に作用してcAMPを増加させ、電解質と水の分泌を促進する。",
         "diagnosis": "便培養による同定が基本。疫学情報が重要。",
         "treatment": "補液療法が最重要。重症例ではテトラサイクリン系などの抗菌薬が用いられる。",
         "infectionControl": "水・食品衛生の管理が最重要。",
-        "law": "感染症法二類感染症（コレラ）。",
+        "law": "二類。",
         "biosafety": "BSL-2",
         "lpsn": "https://lpsn.dsmz.de/species/vibrio-cholerae"
       },
