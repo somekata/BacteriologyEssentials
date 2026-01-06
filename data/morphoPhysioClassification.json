@@ -95,8 +95,10 @@
       {
         "label": "抗酸菌",
         "items": [
-          "mycobacterium-tb-001",
-          "mycobacterium-ntm-001"
+          "mycobacterium-tuberculosis-001",
+          "mycobacterium-avium-001",
+          "mycobacterium-intracellulare-001",
+          "mycobacterium-leprae-001"
         ]
       },
       {
@@ -109,24 +111,34 @@
       {
         "label": "スピリルム",
         "items": [
-          "campylobacter-001",
-          "helicobacter-001"
+          "campylobacter-jejuni-001",
+          "helicobacter-pylori-001"
         ]
       },
       {
         "label": "スピロヘータ",
         "items": [
-          "treponema-001",
-          "borrelia-001",
-          "leptospira-001"
+          "treponema-pallidum-001",
+          "borrelia-burgdorferi-001",
+          "borrelia-recurrentis-001",
+          "leptospira-interogans-001"
         ]
       },
       {
         "label": "非定型菌",
         "items": [
-          "mycoplasma-001",
-          "chlamydia-001",
-          "legionella-001"
+          "mycoplasma-pneumoniae-001",
+          "legionella-pneumophila-001",
+          "chlamydia-pneumoniae-001",
+          "chlamydia-trachomatis-001",
+          "chlamydia-psittaci-001",
+          "rickettsia-ricketts-001",
+          "orientia-tsutsugamushi-001",
+          "rickettsia-japonica-001",
+          "rickettsia-prowazekii-001",
+          "rickettsia-typhi-001",
+          "ehrlichia-chaffeensis-001",
+          "anaplasma-phagocytophilum-001"
         ]
       }
     ]
