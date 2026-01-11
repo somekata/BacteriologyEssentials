@@ -1,0 +1,15 @@
+{
+  "id": "upec-001",
+  "title": "尿路病原性大腸菌（UPEC）",
+  "entryType": "pathotype",
+  "baseSpecies": "ecoli-001",
+  "labels": ["UPEC", "UTI"],
+  "importance": 4,
+  "tags": ["GNR", "UTI", "線毛"],
+  "summary": "尿路感染症を起こす大腸菌",
+  "body": {
+    "clinical": "膀胱炎、腎盂腎炎。",
+    "biosafety": "BSL-2"
+  },
+  "related": ["ecoli-001", "uti-001"]
+}

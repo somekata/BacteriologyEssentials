@@ -1,0 +1,21 @@
+    {
+      "id": "strep-pneumo-001",
+      "title": "肺炎球菌",
+      "entryType": "species",
+      "taxonGenus": "streptococcus",
+      "species": "pneumoniae",
+      "importance": 5,
+      "tags": ["GPC", "chain", "莢膜", "市中肺炎", "髄膜炎"],
+      "summary": "市中肺炎の代表的原因菌",
+      "body": {
+        "bacteriology": "莢膜を有するグラム陽性双球菌。α溶血性。オプトヒン感性。莢膜は主要な病原因子で、100種類以上の血清型が知られる。",
+        "clinical": "市中肺炎の主要な原因菌で、その他、髄膜炎、菌血症、中耳炎、副鼻腔炎なども見られる。侵襲性肺炎球菌感染症（IPD）は、肺炎球菌による侵襲性感染症を指し、無菌検体から菌が分離された場合に診断される。重症型として、Austria症候群（肺炎、髄膜炎、感染性心内膜炎の合併）やWaterhouse-Freidrichsen症候群（副腎不全を伴う劇症型）もある。\nWaterhouse-Freidrichsen症候群は髄膜炎菌感染症でより一般的に見られるが、肺炎球菌感染症でも稀に発生することがある。\n高齢者、乳幼児、免疫抑制状態、脾摘の患者で重症化しやすい。",
+        "diagnosis": "肺炎では喀痰検査（塗抹・培養）が基本。喀痰抗原検査や尿中抗原検査も有用。",
+        "treatment": "ペニシリン系薬が第一選択。ただし、ペニシリン耐性肺炎球菌（PRSP）も存在する。ただし、髄膜炎と非髄膜炎で耐性の基準が異なる。",
+        "infectionControl": "",
+        "law": "侵襲性肺炎球菌感染症（5類全数・7日以内）、ペニシリン耐性肺炎球菌感染症（5類・基幹定点・月単位）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/streptococcus-pneumoniae"
+      },
+      "related": ["cap-001"]
+    }

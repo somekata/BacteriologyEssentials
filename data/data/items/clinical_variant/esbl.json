@@ -1,0 +1,16 @@
+{
+  "id": "esbl-001",
+  "title": "ESBL産生菌",
+  "entryType": "clinical_variant",
+  "baseSpecies": "enterococcus-genus-001",
+  "labels": ["ESBL", "β-ラクタマーゼ"],
+  "importance": 4,
+  "tags": ["GNR", "腸内細菌目細菌", "耐性", "β-lactamase"],
+  "summary": "ESBL（Extended-Spectrum β-Lactamase）を産生する菌",
+  "body": {
+    "clinical": "主な産生菌は大腸菌、クレブシエラ属菌などの腸内細菌目細菌である。近年増加傾向にある。主な感染症は、尿路感染症や菌血症である。キノロン系薬にも耐性を示すことが多いため、治療にはカルバペネム系抗菌薬が用いられることが多い。\nESBLは基質特異性拡張型β-ラクタマーゼの略で、Ambler分類のクラスAに属する酵素のうち、ペニシリン系薬とセファロスポリン系薬を分解するもの指す。モノバクタム系薬も分解するが、セファマイシン系薬やオキサセフェム系薬、カルバペネム系薬は分解しない。また、タゾバクタムなどのβ-ラクタマーゼ阻害薬で阻害される。\n主なESBLにはTEM型、SHV型、CTX-M型がある。特に近年、CTX-M型が世界的に蔓延しており、CTX-M-9Gが最も多い。",
+    "infectionControl": "基本的には標準予防策であるが、必要に応じて接触予防策をとる。",
+    "biosafety": "BSL-2"
+  },
+  "related": ["ecoli-001", "klebsiella-pneumoniae-001"]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "haemophilus-influenzae-001",
+      "title": "インフルエンザ菌",
+      "entryType": "species",
+      "taxonGenus": "haemophilus",
+      "species": "influenzae",
+      "importance": 5,
+      "tags": ["GNR", "小桿菌","pleomorphic", "莢膜", "市中肺炎", "髄膜炎", "COPD", "慢性副鼻腔炎", "中耳炎", "Hib"],
+      "summary": "市中肺炎の代表的原因菌",
+      "body": {
+        "bacteriology": "グラム陰性小桿菌。多形性を示す。無莢膜型と莢膜型があり、莢膜型はa～fの6つの型がある。b型はHibと呼ばれ、ワクチンで予防可能。",
+        "clinical": "市中肺炎、髄膜炎、菌血症の主要原因。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "侵襲性感染症インフルエンザ菌感染症（5類全数・7日以内）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/haemophilus-influenzae"
+      },
+      "related": ["cap-001"]
+}

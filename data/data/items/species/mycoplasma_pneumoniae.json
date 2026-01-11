@@ -1,0 +1,21 @@
+{
+  "id": "mycoplasma-pneumoniae-001",
+  "title": "肺炎マイコプラズマ",
+  "entryType": "species",
+  "taxonGenus": "mycoplasma",
+  "species": "pneumoniae",
+  "importance": 5,
+  "tags": ["非定型菌", "非定型肺炎", "異型肺炎"],
+  "summary": "非定型肺炎の代表的な原因菌。",
+  "body": {
+    "bacteriology": "細胞壁を持たない非常に小さな細菌。培養には特殊な培地が必要で、増殖速度も遅い。",
+    "clinical": "非定型肺炎（異型肺炎）の代表的な原因菌。発熱、頭痛、咽頭痛、咳などの症状を呈する。",
+    "diagnosis": "血清学的検査（抗体検査）が基本。PCRによる分子生物学的検査も可能。",
+    "treatment": "マクロライド系薬、テトラサイクリン系薬、ニューキノロン系薬が有効。",
+    "infectionControl": "飛沫感染に注意。",
+    "law": "マイコプラズマ肺炎（5類・基幹定点・週単位）",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/species/mycoplasma-pneumoniae"
+  },
+  "related": []
+}

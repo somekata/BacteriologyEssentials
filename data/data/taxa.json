@@ -1,0 +1,637 @@
+{
+  "id": "bacteria",
+  "rank": "domain",
+  "label": "Bacteria",
+  "children": [
+    {
+      "id": "bacillati",
+      "rank": "kingdom",
+      "label": "Bacillati",
+      "children": [
+        {
+          "id": "actinomycetota",
+          "rank": "phylum",
+          "label": "Actinomycetota",
+          "children": [
+            {
+              "id": "actinomycetes",
+              "rank": "class",
+              "label": "Actinomycetes",
+              "children": [
+                {
+                  "id": "actinomycetales",
+                  "rank": "order",
+                  "label": "Actinomycetales",
+                  "children": [
+                    {
+                      "id": "actinomycetaceae",
+                      "rank": "family",
+                      "label": "Actinomycetaceae",
+                      "children": [
+                        {
+                          "id": "actinomyces",
+                          "rank": "genus",
+                          "label": "Actinomyces",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "nocardiales",
+                  "rank": "order",
+                  "label": "Nocardiales",
+                  "children": [
+                    {
+                      "id": "nocardiaceae",
+                      "rank": "family",
+                      "label": "Nocardiaceae",
+                      "children": [
+                        {
+                          "id": "nocardia",
+                          "rank": "genus",
+                          "label": "Nocardia",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "mycobacteriales",
+                  "rank": "order",
+                  "label": "Mycobacteriales",
+                  "children": [
+                    {
+                      "id": "mycobacteriaceae",
+                      "rank": "family",
+                      "label": "Mycobacteriaceae",
+                      "children": [
+                        {
+                          "id": "mycobacterium",
+                          "rank": "genus",
+                          "label": "Mycobacterium",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bacillota",
+          "rank": "phylum",
+          "label": "Bacillota",
+          "children": [
+            {
+              "id": "bacilli",
+              "rank": "class",
+              "label": "Bacilli",
+              "children": [
+                {
+                  "id": "lactobacillales",
+                  "rank": "order",
+                  "label": "Lactobacillales",
+                  "children": [
+                    {
+                      "id": "streptococcaceae",
+                      "rank": "family",
+                      "label": "Streptococcaceae",
+                      "children": [
+                        {
+                          "id": "streptococcus",
+                          "rank": "genus",
+                          "label": "Streptococcus",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "enterococcaceae",
+                      "rank": "family",
+                      "label": "Enterococcaceae",
+                      "children": [
+                        {
+                          "id": "enterococcus",
+                          "rank": "genus",
+                          "label": "Enterococcus",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "caryophanales",
+                  "rank": "order",
+                  "label": "Caryophanales",
+                  "children": [
+                    {
+                      "id": "staphylococcaceae",
+                      "rank": "family",
+                      "label": "Staphylococcaceae",
+                      "children": [
+                        {
+                          "id": "staphylococcus",
+                          "rank": "genus",
+                          "label": "Staphylococcus",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "bacillaceae",
+                      "rank": "family",
+                      "label": "Bacillaceae",
+                      "children": [
+                        {
+                          "id": "bacillus",
+                          "rank": "genus",
+                          "label": "Bacillus",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "clostridia",
+              "rank": "class",
+              "label": "Clostridia",
+              "children": [
+                {
+                  "id": "eubacteriales",
+                  "rank": "order",
+                  "label": "Eubacteriales",
+                  "children": [
+                    {
+                      "id": "clostridiaceae",
+                      "rank": "family",
+                      "label": "Clostridiaceae",
+                      "children": [
+                        {
+                          "id": "clostridium",
+                          "rank": "genus",
+                          "label": "Clostridium",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mycoplasmatota",
+          "rank": "phylum",
+          "label": "Mycoplasmatota",
+          "children": [
+            {
+              "id": "mollicutes",
+              "rank": "class",
+              "label": "Mollicutes",
+              "children": [
+                {
+                  "id": "mycoplasmatales",
+                  "rank": "order",
+                  "label": "Mycoplasmatales",
+                  "children": [
+                    {
+                      "id": "mycoplasmataceae",
+                      "rank": "family",
+                      "label": "Mycoplasmataceae",
+                      "children": [
+                        {
+                          "id": "mycoplasma",
+                          "rank": "genus",
+                          "label": "Mycoplasma",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fusobacteriati",
+      "rank": "kingdom",
+      "label": "Fusobacteriati",
+      "children": [
+        {
+          "id": "fusobacteriota",
+          "rank": "phylum",
+          "label": "Fusobacteriota",
+          "children": [
+            {
+              "id": "fusobacteriia",
+              "rank": "class",
+              "label": "Fusobacteriia",
+              "children": [
+                {
+                  "id": "fusobacteriales",
+                  "rank": "order",
+                  "label": "Fusobacteriales",
+                  "children": [
+                    {
+                      "id": "fusobacteriaceae",
+                      "rank": "family",
+                      "label": "Fusobacteriaceae",
+                      "children": [
+                        {
+                          "id": "fusobacterium",
+                          "rank": "genus",
+                          "label": "Fusobacterium",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pseudomonadati",
+      "rank": "kingdom",
+      "label": "Pseudomonadati",
+      "children": [
+        {
+          "id": "pseudomonadota",
+          "rank": "phylum",
+          "label": "Pseudomonadota",
+          "children": [
+            {
+              "id": "gammaproteobacteria",
+              "rank": "class",
+              "label": "Gammaproteobacteria",
+              "children": [
+                {
+                  "id": "pseudomonadales",
+                  "rank": "order",
+                  "label": "Pseudomonadales",
+                  "children": [
+                    {
+                      "id": "pseudomonadaceae",
+                      "rank": "family",
+                      "label": "Pseudomonadaceae",
+                      "children": [
+                        {
+                          "id": "pseudomonas",
+                          "rank": "genus",
+                          "label": "Pseudomonas",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "moraxellaceae",
+                      "rank": "family",
+                      "label": "Moraxellaceae",
+                      "children": [
+                        {
+                          "id": "moraxella",
+                          "rank": "genus",
+                          "label": "Moraxella",
+                          "children": []
+                        },
+                        {
+                          "id": "acinetobacter",
+                          "rank": "genus",
+                          "label": "Acinetobacter",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "pasteurellales",
+                  "rank": "order",
+                  "label": "Pasteurellales",
+                  "children": [
+                    {
+                      "id": "pasteurellaceae",
+                      "rank": "family",
+                      "label": "Pasteurellaceae",
+                      "children": [
+                        {
+                          "id": "haemophilus",
+                          "rank": "genus",
+                          "label": "Haemophilus",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "enterobacterales",
+                  "rank": "order",
+                  "label": "Enterobacterales",
+                  "children": [
+                    {
+                      "id": "enterobacteriaceae",
+                      "rank": "family",
+                      "label": "Enterobacteriaceae",
+                      "children": [
+                        {
+                          "id": "enterobacter",
+                          "rank": "genus",
+                          "label": "Enterobacter",
+                          "children": []
+                        },
+                        {
+                          "id": "escherichia",
+                          "rank": "genus",
+                          "label": "Escherichia",
+                          "children": []
+                        },
+                        {
+                          "id": "klebsiella",
+                          "rank": "genus",
+                          "label": "Klebsiella",
+                          "children": []
+                        },
+                        {
+                          "id": "salmonella",
+                          "rank": "genus",
+                          "label": "Salmonella",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "vibrionales",
+                  "rank": "order",
+                  "label": "Vibrionales",
+                  "children": [
+                    {
+                      "id": "vibrionaceae",
+                      "rank": "family",
+                      "label": "Vibrionaceae",
+                      "children": [
+                        {
+                          "id": "vibrio",
+                          "rank": "genus",
+                          "label": "Vibrio",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "legionellales",
+                  "rank": "order",
+                  "label": "Legionellales",
+                  "children": [
+                    {
+                      "id": "legionellaceae",
+                      "rank": "family",
+                      "label": "Legionellaceae",
+                      "children": [
+                        {
+                          "id": "legionella",
+                          "rank": "genus",
+                          "label": "Legionella",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "coxiellellaceae",
+                      "rank": "family",
+                      "label": "Coxiellellaceae",
+                      "children": [
+                        {
+                          "id": "coxiella",
+                          "rank": "genus",
+                          "label": "Coxiella",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "epsilonproteobacteria",
+              "rank": "class",
+              "label": "Epsilonproteobacteria",
+              "children": [
+                {
+                  "id": "campylobacterales",
+                  "rank": "order",
+                  "label": "Campylobacterales",
+                  "children": [
+                    {
+                      "id": "campylobacteraceae",
+                      "rank": "family",
+                      "label": "Campylobacteraceae",
+                      "children": [
+                        {
+                          "id": "campylobacter",
+                          "rank": "genus",
+                          "label": "Campylobacter",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "helicobacteraceae",
+                      "rank": "family",
+                      "label": "Helicobacteraceae",
+                      "children": [
+                        {
+                          "id": "helicobacter",
+                          "rank": "genus",
+                          "label": "Helicobacter",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "alphaproteobacteria",
+              "rank": "class",
+              "label": "Alphaproteobacteria",
+              "children": [
+                {
+                  "id": "rickettsiales",
+                  "rank": "order",
+                  "label": "Rickettsiales",
+                  "children": [
+                    {
+                      "id": "rickettsiaceae",
+                      "rank": "family",
+                      "label": "Rickettsiaceae",
+                      "children": [
+                        {
+                          "id": "rickettsia",
+                          "rank": "genus",
+                          "label": "Rickettsia",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "betaproteobacteria",
+              "rank": "class",
+              "label": "Betaproteobacteria",
+              "children": [
+                {
+                  "id": "neisseriales",
+                  "rank": "order",
+                  "label": "Neisseriales",
+                  "children": [
+                    {
+                      "id": "neisseriaceae",
+                      "rank": "family",
+                      "label": "Neisseriaceae",
+                      "children": [
+                        {
+                          "id": "neisseria",
+                          "rank": "genus",
+                          "label": "Neisseria",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bacteroidota",
+          "rank": "phylum",
+          "label": "Bacteroidota",
+          "children": [
+            {
+              "id": "bacteroidia",
+              "rank": "class",
+              "label": "Bacteroidia",
+              "children": [
+                {
+                  "id": "bacteroidales",
+                  "rank": "order",
+                  "label": "Bacteroidales",
+                  "children": [
+                    {
+                      "id": "bacteroidaceae",
+                      "rank": "family",
+                      "label": "Bacteroidaceae",
+                      "children": [
+                        {
+                          "id": "bacteroides",
+                          "rank": "genus",
+                          "label": "Bacteroides",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spirochaetota",
+          "rank": "phylum",
+          "label": "Spirochaetota",
+          "children": [
+            {
+              "id": "spirochaetia",
+              "rank": "class",
+              "label": "Spirochaetia",
+              "children": [
+                {
+                  "id": "spirochaetales",
+                  "rank": "order",
+                  "label": "Spirochaetales",
+                  "children": [
+                    {
+                      "id": "treponemataceae",
+                      "rank": "family",
+                      "label": "Treponemataceae",
+                      "children": [
+                        {
+                          "id": "treponema",
+                          "rank": "genus",
+                          "label": "Treponema",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chlamydiota",
+          "rank": "phylum",
+          "label": "Chlamydiota",
+          "children": [
+            {
+              "id": "chlamydiia",
+              "rank": "class",
+              "label": "Chlamydiia",
+              "children": [
+                {
+                  "id": "chlamydiales",
+                  "rank": "order",
+                  "label": "Chlamydiales",
+                  "children": [
+                    {
+                      "id": "chlamydiaceae",
+                      "rank": "family",
+                      "label": "Chlamydiaceae",
+                      "children": [
+                        {
+                          "id": "chlamydia",
+                          "rank": "genus",
+                          "label": "Chlamydia",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "legionella-pneumophila-001",
+  "title": "レジオネラ・ニューモフィラ",
+  "entryType": "species",
+  "taxonGenus": "legionella",
+  "species": "pneumophila",
+  "importance": 5,
+  "tags": ["非定型菌", "非定型肺炎", "異型肺炎"],
+  "summary": "非定型肺炎の代表的な原因菌。",
+  "body": {
+    "bacteriology": "臨床検体中の菌はグラム染色で染まらないため、ヒメネス（Gimenez）染色を用いる。好気性のグラム陰性桿菌で、培養には特殊な培地（BCYE-α培地やWYO培地）が必要。環境中ではアメーバ、特にカビアメーバ（Acanthamoeba spp.）の中で増殖することが知られている。生体内ではマクロファージ内で増殖する。L. pneumophilaは15血清群に分けられる。レジオネラ肺炎の原因となるのは主に血清型1（SG1）であるが、2022年以降はSG1以外による感染症が増えている。",
+    "clinical": "重症の市中肺炎を引き起こす。発熱、頭痛、咳、筋肉痛、下痢などの症状を呈する。水系からのエアロゾル吸入により感染するため、温泉や浴場、冷却塔などが感染源となることがある。",
+    "diagnosis": "尿中抗原検査が迅速で感度も高いが、血清型が限られる。培養やPCR、血清学的検査も行われる。\n*尿中抗原検査：BinaxNOW™ レジオネラは、血清型1LPS抗原を検出する。リボテスト®レジオネラは血清型1のLPS抗原及び血清型1～15のL7/L12抗原を検出する。",
+    "treatment": "マクロライド系薬、テトラサイクリン系薬、ニューキノロン系薬が有効。",
+    "infectionControl": "飛沫感染に注意。",
+    "law": "レジオネラ症（4類）。",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/species/legionella-pneumophila"
+  },
+  "related": []
+}

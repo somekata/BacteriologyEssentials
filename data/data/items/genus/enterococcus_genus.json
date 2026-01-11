@@ -1,0 +1,16 @@
+{
+  "id": "enterococcus-genus-001",
+  "title": "腸球菌属",
+  "entryType": "genus",
+  "taxonGenus": "enterococcus",
+  "importance": 4,
+  "tags": ["GPC", "chain", "腸内常在菌", "耐性"],
+  "summary": "属レベルで臨床的に重要なグラム陽性球菌",
+  "body": {
+    "bacteriology": "グラム陽性球菌。胆汁エスクリン陽性。",
+    "clinical": "尿路感染症、菌血症。",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/genus/enterococcus"
+  },
+  "related": ["vre-001", "enterococcus-faecalis-001", "enterococcus-faecium-001"]
+}

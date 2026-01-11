@@ -1,0 +1,21 @@
+{
+  "id": "campylobacter-jejuni-001",
+  "title": "カンピロバクター・ジェジュニ",
+  "entryType": "species",
+  "taxonGenus": "campylobacter",
+  "species": "jejuni",
+  "importance": 4,
+  "tags": ["spirirum", "スピリルム", "食中毒", "下痢症"],
+  "summary": "鳥の腸内の常在菌。腸管感染症の原因菌。",
+  "body": {
+    "bacteriology": "至適温度はやや高い（42℃程度）。鳥の体温に適応しているためと考えられている。グラム陰性の湾曲した桿菌で、運動性を有する。比較的少ない菌数（数百個程度）でも腸炎を発症する（https://pubmed.ncbi.nlm.nih.gov/3343522/）。Campylobacter coliも同様の疾患を引き起こす。Campylocacter fetusは血流感染症の原因菌として知られる。",
+    "clinical": "激しい下痢、腹痛、発熱を呈する。ギラン・バレー症候群の原因菌としても知られる。典型的には生焼けの鶏肉の摂取が契機となることが多い。潜伏期間は2〜5日程度である。\nしかしながら、井戸水や飲料水を介する集団発生の事例も知られている。2023年に流しそうめんの水を介して集団発生した事例では892人の感染者で過去最大となった。",
+    "diagnosis": "便のグラム染色でわかる唯一の下痢症の原因菌。便培養による同定が基本。疫学情報（鶏肉の摂取など）が重要。",
+    "treatment": "マクロライド系薬が第一選択。",
+    "infectionControl": "鶏肉の十分な加熱が重要。",
+    "law": "感染症法は該当せず。食中毒は食品衛生法の対象。",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/species/campylobacter-jejuni"
+  },
+  "related": []
+}

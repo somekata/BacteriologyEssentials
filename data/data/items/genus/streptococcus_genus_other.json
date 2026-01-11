@@ -1,0 +1,16 @@
+{
+  "id": "streptococcus-genus-001",
+  "title": "レンサ球菌属",
+  "entryType": "genus",
+  "taxonGenus": "streptococcus",
+  "importance": 2,
+  "tags": ["GPC", "chain"],
+  "summary": "緑色連鎖球菌を含むその他のレンサ球菌属細菌",
+  "body": {
+    "bacteriology": "グラム陽性球菌。",
+    "clinical": "緑色連鎖球菌（Viridans Streptococcus、口腔内の弱毒のα溶血性連鎖球菌の総称）は口腔内常在菌で、心内膜炎や歯性感染症の原因となることがある。S. dysgalactiae supsp. equisimilisはA群やG群に分類されることがあり、病原性が高い。\n主な菌種：S. dysgalactiae supsp. equisimilis、S. salivarius群、S. mitis群、S. anginosus群、S. mutans群。",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/genus/streptococcus"
+  },
+  "related": ["vre-001"]
+}

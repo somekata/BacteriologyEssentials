@@ -1,0 +1,21 @@
+{
+  "id": "ecoli-001",
+  "title": "大腸菌",
+  "entryType": "species",
+  "taxonGenus": "escherichia",
+  "species": "coli",
+  "importance": 5,
+  "tags": ["GNR", "ブドウ糖発酵菌", "腸内細菌目", "UTI"],
+  "summary": "腸内常在菌だが多彩な感染症の原因",
+  "body": {
+    "bacteriology": "グラム陰性桿菌。ブドウ糖発酵菌。",
+    "clinical": "尿路感染症では最多。血液からの分離も最多。敗血症、腹腔内感染。",
+    "diagnosis": "",
+    "treatment": "",
+    "infectionControl": "",
+    "law": "カルバペネム耐性腸内細菌目感染症（5類全数・7日以内）。",
+    "biosafety": "BSL-2",
+    "lpsn": "https://lpsn.dsmz.de/species/escherichia-coli"
+  },
+  "related": ["ehec-001", "upec-001", "esbl-001"]
+}

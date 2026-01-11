@@ -1,0 +1,18 @@
+{
+  "id": "mrsa-001",
+  "title": "MRSA",
+  "entryType": "clinical_variant",
+  "baseSpecies": "staph-aureus-001",
+  "labels": ["MRSA", "βラクタム耐性"],
+  "importance": 5,
+  "tags": ["GPC", "cluster", "耐性", "mecA", "PBP2a", "院内感染"],
+  "summary": "メチシリン耐性黄色ブドウ球菌",
+  "body": {
+    "bacteriology": "黄色ブドウ球菌のメチシリン耐性。mecA遺伝子を獲得しており、PBP2aを産生することでβラクタム系薬に対する耐性を示す。",
+    "clinical": "院内感染の代表的耐性菌。\n重要な感染症として、血流感染、手術部位感染、肺炎などがある。",
+    "infectionControl": "接触予防策が重要。",
+    "law": "VRSA感染症は五類全数、MRSA感染症は5類定点。",
+    "biosafety": "BSL-2"
+  },
+  "related": ["staph-aureus-001"]
+}
