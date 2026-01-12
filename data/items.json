@@ -1,71 +1,61 @@
 {
   "meta": {
-    "title": "Bacteriology Text Items",
-    "version": "0.4",
-    "description": "1 item = 1 学習単位（菌・病原型・耐性型・概念）"
+    "generated_by": "build_items.py",
+    "item_count": 36
   },
   "items": [
     {
-      "id": "strep-pneumo-001",
-      "title": "肺炎球菌",
+      "id": "bordetella-pertussis-001",
+      "title": "百日咳菌",
       "entryType": "species",
-      "taxonGenus": "streptococcus",
-      "species": "pneumoniae",
+      "taxonGenus": "bordetella",
+      "species": "pertussis",
       "importance": 5,
-      "tags": ["GPC", "chain", "莢膜", "市中肺炎", "髄膜炎"],
-      "summary": "市中肺炎の代表的原因菌",
+      "tags": [
+        "GNR",
+        "小桿菌",
+        "pleomorphic",
+        "百日咳"
+      ],
+      "summary": "百日咳の原因菌",
       "body": {
-        "bacteriology": "莢膜を有するグラム陽性双球菌。α溶血性。",
-        "clinical": "市中肺炎、髄膜炎、菌血症の主要原因。",
-        "diagnosis": "",
-        "treatment": "",
-        "infectionControl": "",
-        "law": "感染症法上の全数届出対象ではない。",
+        "bacteriology": "グラム陰性小桿菌。多形性を示す。運動性はない。好気性。",
+        "clinical": "百日咳の原因菌。幼児に多い。ワクチンで予防可能。全菌体ワクチン（wP）は副反応が多かったため、現在は無細胞ワクチン（aP）が用いられる。3種混合DTaP（ジフテリア・破傷風・無細胞百日咳）、4種混合DTaP-IPV（ポリオ追加）、5種混合DTaP-IPV-Hib（Hib追加）などがある。",
+        "diagnosis": "培養も可能であるが、PCR法や血清学的診断が一般的。培養には特殊な培地（Bordet-Gengou培地）が必要。",
+        "treatment": "抗菌薬として、アジスロマイシンなどのマクロライド系薬が用いられる。ただし、近年、マクロライド耐性百日咳菌（MRBP）の出現が報告されている。\n*MRBP: Macrolide-Resistant Bordetella Pertussisで、23SrRNAのA2047G変異を有する。中国ではMRBPが流行し、アジア地域への拡散が危惧されている。欧米でも散発例が知られているが、大規模な流行は世界で初めてのことである。反復配列多型解析（MLVA）法により、中国のMRBPは主に3種類の遺伝子型（MT55、MT104、MT195）に分類される。台湾、ベトナム、日本でも、MT104やMT195、またはその亜型に分類される株が分離されている（https://id-info.jihs.go.jp/niid/ja/typhi-m/iasr-reference/10457-496r04.html）。",
+        "infectionControl": "飛沫予防策が必要である。基本再生産数（R0）は20程度とされており、感染力は非常に強い。",
+        "law": "百日咳（5類全数・7日以内）。",
         "biosafety": "BSL-2",
-        "lpsn": "https://lpsn.dsmz.de/species/streptococcus-pneumoniae"
+        "lpsn": "https://lpsn.dsmz.de/species/bordetella-pertussis"
       },
-      "related": ["cap-001"]
+      "related": []
     },
-
     {
-      "id": "staph-aureus-001",
-      "title": "黄色ブドウ球菌",
+      "id": "campylobacter-jejuni-001",
+      "title": "カンピロバクター・ジェジュニ",
       "entryType": "species",
-      "taxonGenus": "staphylococcus",
-      "species": "aureus",
-      "importance": 5,
-      "tags": ["GPC", "cluster", "化膿性", "毒素"],
-      "summary": "強い病原性をもつ皮膚常在菌",
+      "taxonGenus": "campylobacter",
+      "species": "jejuni",
+      "importance": 4,
+      "tags": [
+        "spirirum",
+        "スピリルム",
+        "食中毒",
+        "下痢症"
+      ],
+      "summary": "鳥の腸内の常在菌。腸管感染症の原因菌。",
       "body": {
-        "bacteriology": "グラム陽性球菌。ブドウ房状配列。カタラーゼ陽性。",
-        "clinical": "皮膚軟部組織感染症、菌血症、心内膜炎。",
-        "diagnosis": "",
-        "treatment": "",
-        "infectionControl": "",
-        "law": "",
+        "bacteriology": "至適温度はやや高い（42℃程度）。鳥の体温に適応しているためと考えられている。グラム陰性の湾曲した桿菌で、運動性を有する。比較的少ない菌数（数百個程度）でも腸炎を発症する（https://pubmed.ncbi.nlm.nih.gov/3343522/）。Campylobacter coliも同様の疾患を引き起こす。Campylocacter fetusは血流感染症の原因菌として知られる。",
+        "clinical": "激しい下痢、腹痛、発熱を呈する。ギラン・バレー症候群の原因菌としても知られる。典型的には生焼けの鶏肉の摂取が契機となることが多い。潜伏期間は2〜5日程度である。\nしかしながら、井戸水や飲料水を介する集団発生の事例も知られている。2023年に流しそうめんの水を介して集団発生した事例では892人の感染者で過去最大となった。",
+        "diagnosis": "便のグラム染色でわかる唯一の下痢症の原因菌。便培養による同定が基本。疫学情報（鶏肉の摂取など）が重要。",
+        "treatment": "マクロライド系薬が第一選択。",
+        "infectionControl": "鶏肉の十分な加熱が重要。",
+        "law": "感染症法は該当せず。食中毒は食品衛生法の対象。",
         "biosafety": "BSL-2",
-        "lpsn": "https://lpsn.dsmz.de/species/staphylococcus-aureus"
+        "lpsn": "https://lpsn.dsmz.de/species/campylobacter-jejuni"
       },
-      "related": ["mrsa-001"]
+      "related": []
     },
-
-    {
-      "id": "mrsa-001",
-      "title": "MRSA",
-      "entryType": "clinical_variant",
-      "baseSpecies": "staph-aureus-001",
-      "labels": ["MRSA", "βラクタム耐性"],
-      "importance": 5,
-      "tags": ["GPC", "cluster", "耐性", "PBP2a", "院内感染"],
-      "summary": "メチシリン耐性黄色ブドウ球菌",
-      "body": {
-        "clinical": "院内感染の代表的耐性菌。",
-        "infectionControl": "接触予防策が重要。",
-        "biosafety": "BSL-2"
-      },
-      "related": ["staph-aureus-001"]
-    },
-
     {
       "id": "ecoli-001",
       "title": "大腸菌",
@@ -73,62 +63,614 @@
       "taxonGenus": "escherichia",
       "species": "coli",
       "importance": 5,
-      "tags": ["GNR", "ブドウ糖発酵菌", "腸内細菌目", "UTI"],
+      "tags": [
+        "GNR",
+        "ブドウ糖発酵菌",
+        "腸内細菌目",
+        "UTI"
+      ],
       "summary": "腸内常在菌だが多彩な感染症の原因",
       "body": {
         "bacteriology": "グラム陰性桿菌。ブドウ糖発酵菌。",
-        "clinical": "尿路感染症、敗血症、腹腔内感染。",
+        "clinical": "尿路感染症では最多。血液からの分離も最多。敗血症、腹腔内感染。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "カルバペネム耐性腸内細菌目感染症（5類全数・7日以内）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/escherichia-coli"
+      },
+      "related": [
+        "ehec-001",
+        "upec-001",
+        "esbl-001"
+      ]
+    },
+    {
+      "id": "enterococcus-faecalis-001",
+      "title": "腸球菌（フェカリス）",
+      "entryType": "species",
+      "taxonGenus": "enterococcus",
+      "species": "faecalis",
+      "importance": 3,
+      "tags": [
+        "GPC",
+        "chain"
+      ],
+      "summary": "腸内に常在するグラム陽性球菌。フェシウムに比べて耐性は少ない。",
+      "body": {
+        "bacteriology": "グラム陽性球菌。連鎖状。カタラーゼ陰性。",
+        "clinical": "日和見感染症の原因菌。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "バンコマイシン耐性腸球菌感染症（5類全数・7日以内）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/enterococcus-faecium"
+      },
+      "related": [
+        "vre-001"
+      ]
+    },
+    {
+      "id": "enterococcus-faecium-001",
+      "title": "腸球菌（フェシウム）",
+      "entryType": "species",
+      "taxonGenus": "enterococcus",
+      "species": "faecium",
+      "importance": 3,
+      "tags": [
+        "GPC",
+        "chain"
+      ],
+      "summary": "腸内に常在するグラム陽性球菌。バンコマイシン耐性がフェカリスよりも多い。",
+      "body": {
+        "bacteriology": "グラム陽性球菌。連鎖状。カタラーゼ陰性。",
+        "clinical": "日和見感染症の原因菌。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "バンコマイシン耐性腸球菌感染症（5類全数・7日以内）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/enterococcus-faecium"
+      },
+      "related": [
+        "vre-001"
+      ]
+    },
+    {
+      "id": "haemophilus-influenzae-001",
+      "title": "インフルエンザ菌",
+      "entryType": "species",
+      "taxonGenus": "haemophilus",
+      "species": "influenzae",
+      "importance": 5,
+      "tags": [
+        "GNR",
+        "小桿菌",
+        "pleomorphic",
+        "莢膜",
+        "市中肺炎",
+        "髄膜炎",
+        "COPD",
+        "慢性副鼻腔炎",
+        "中耳炎",
+        "Hib"
+      ],
+      "summary": "市中肺炎の代表的原因菌",
+      "body": {
+        "bacteriology": "グラム陰性小桿菌。多形性を示す。無莢膜型と莢膜型があり、莢膜型はa～fの6つの型がある。b型はHibと呼ばれ、ワクチンで予防可能。",
+        "clinical": "市中肺炎、髄膜炎、菌血症の主要原因。",
+        "diagnosis": "",
+        "treatment": "",
+        "infectionControl": "",
+        "law": "侵襲性感染症インフルエンザ菌感染症（5類全数・7日以内）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/haemophilus-influenzae"
+      },
+      "related": [
+        "cap-001"
+      ]
+    },
+    {
+      "id": "helicobacter-pylori-001",
+      "title": "ヘリコバクター・ピロリ",
+      "entryType": "species",
+      "taxonGenus": "helicobacter",
+      "species": "pylori",
+      "importance": 4,
+      "tags": [
+        "spirirum",
+        "スピリルム",
+        "胃潰瘍",
+        "胃癌"
+      ],
+      "summary": "胃粘膜に定着する螺旋状のグラム陰性菌。胃潰瘍や胃癌の原因菌。",
+      "body": {
+        "bacteriology": "グラム陰性の湾曲した桿菌。属名はらせん状を意味するhelicoに由来し、種名は幽門を意味するpyloriに由来する。運動性を有し、ウレアーゼ（尿素分解酵素）をもつ。ウレアーゼにより尿素をアンモニアと二酸化炭素に分解する。産生したアンモニアにより胃酸を中和し、生存可能な環境を確保する。\n*同属のHelicobacter cinaediや Helicobacter fennelliaeは、免疫不全患者を中心に血流感染症の原因菌として知られる。",
+        "clinical": "慢性的な胃炎を引き起こし、胃・十二指腸潰瘍や胃癌・胃MALTリンパ腫の原因としても知られる。免疫性血小板減少性紫斑病（ITP）との関連も指摘されている。\n*ピロリ菌に関する研究は、2005年にノーベル生理学・医学賞を受賞した。\nオーストラリアの研究者であるバリー・マーシャルとロビン・ウォレンの2名による共同受賞であり、授賞理由は「ヘリコバクター・ピロリの発見、および胃炎や消化性潰瘍における役割の解明」である。\nかつて、胃の中は強酸性であるため細菌は生息できないと考えられていた。しかし、1982年から1983年にかけて両氏がピロリ菌を発見・培養したことで、それまでの医学界の定説は覆されることとなった。\nさらに、胃潰瘍や十二指腸潰瘍の主たる原因がストレスや生活習慣ではなく、この細菌による感染であることを証明した。マーシャル教授が自らピロリ菌を飲んで胃炎を発症させ、その因果関係を身をもって示したエピソードは有名である。この発見は治療法を劇的に変革させた。潰瘍は抗菌薬による除菌で完治可能な病気となり、現在では胃癌のリスク低減にも大きく寄与している。",
+        "diagnosis": "内視鏡を用いない検査としては、尿素呼気試験（UBT）、抗体検査、便中抗原検査、内視鏡を用いる検査としては、生検組織の迅速ウレアーゼ試験、病理、培養がある。",
+        "treatment": "一次除菌には、プロトンポンプ阻害薬（PPI）アモキシシリン、クラリスロマイシンを組み合わせたを用いた3剤併用療法（PPI-AC）が一般的。近年は、PPIの代わりにカリウムイオン競合型アシッドブロッカー（P-CAB）であるボノプラザンを用いることが増えている。二次除菌では、クラリスロマイシンをメトロニダゾールに変更したPPI-AM療法が用いられる。",
+        "infectionControl": "該当せず",
+        "law": "該当せず。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/helicobacter-pylori"
+      },
+      "related": []
+    },
+    {
+      "id": "klebsiella-pneumoniae-001",
+      "title": "肺炎桿菌",
+      "entryType": "species",
+      "taxonGenus": "klebsiella",
+      "species": "pneumoniae",
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "腸内細菌目",
+        "莢膜",
+        "肺炎",
+        "尿路感染症"
+      ],
+      "summary": "莢膜を有するグラム陰性桿菌で、市中・院内感染症の原因となる。",
+      "body": {
+        "bacteriology": "グラム陰性桿菌でブドウ糖発酵能をもつ腸内細菌目細菌。厚い莢膜を有し、粘稠性コロニーを形成する。",
+        "clinical": "肺炎（典型例では大葉性肺炎の原因となる）、尿路感染症、菌血症の原因菌。特に糖尿病やアルコール依存症患者で重症肺炎を起こしやすい。\n近年、ESBL産生株やカルバペネム耐性株の増加が問題となっている。",
+        "diagnosis": "培養による同定と薬剤感受性試験が基本。",
+        "treatment": "感受性に基づく抗菌薬選択が必要。ESBL産生株やカルバペネム耐性株の増加が問題となっている。",
+        "infectionControl": "院内感染対策として接触予防策が重要。",
+        "law": "カルバペネム耐性腸内細菌目感染症（5類全数・7日以内）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/klebsiella-pneumoniae"
+      },
+      "related": [
+        "esbl-001"
+      ]
+    },
+    {
+      "id": "legionella-pneumophila-001",
+      "title": "レジオネラ・ニューモフィラ",
+      "entryType": "species",
+      "taxonGenus": "legionella",
+      "species": "pneumophila",
+      "importance": 5,
+      "tags": [
+        "非定型菌",
+        "非定型肺炎",
+        "異型肺炎"
+      ],
+      "summary": "非定型肺炎の代表的な原因菌。",
+      "body": {
+        "bacteriology": "臨床検体中の菌はグラム染色で染まらないため、ヒメネス（Gimenez）染色を用いる。好気性のグラム陰性桿菌で、培養には特殊な培地（BCYE-α培地やWYO培地）が必要。環境中ではアメーバ、特にカビアメーバ（Acanthamoeba spp.）の中で増殖することが知られている。生体内ではマクロファージ内で増殖する。L. pneumophilaは15血清群に分けられる。レジオネラ肺炎の原因となるのは主に血清型1（SG1）であるが、2022年以降はSG1以外による感染症が増えている。",
+        "clinical": "重症の市中肺炎を引き起こす。発熱、頭痛、咳、筋肉痛、下痢などの症状を呈する。水系からのエアロゾル吸入により感染するため、温泉や浴場、冷却塔などが感染源となることがある。",
+        "diagnosis": "尿中抗原検査が迅速で感度も高いが、血清型が限られる。培養やPCR、血清学的検査も行われる。\n*尿中抗原検査：BinaxNOW™ レジオネラは、血清型1LPS抗原を検出する。リボテスト®レジオネラは血清型1のLPS抗原及び血清型1～15のL7/L12抗原を検出する。",
+        "treatment": "マクロライド系薬、テトラサイクリン系薬、ニューキノロン系薬が有効。",
+        "infectionControl": "飛沫感染に注意。",
+        "law": "レジオネラ症（4類）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/legionella-pneumophila"
+      },
+      "related": []
+    },
+    {
+      "id": "moraxella-catarrhalis-001",
+      "title": "モラクセラ・カタラリス",
+      "entryType": "species",
+      "taxonGenus": "moraxella",
+      "species": "catarrhalis",
+      "importance": 3,
+      "tags": [
+        "GNC",
+        "グラム陰性球菌",
+        "双球菌",
+        "増悪"
+      ],
+      "summary": "モラクセラ・カタラリスは、グラム陰性球菌であり、主に呼吸器感染症を引き起こす細菌です。",
+      "body": {
+        "bacteriology": "グラム陰性双球菌。非運動性。好気性または通性嫌気性。カタラーゼ陽性、オキシダーゼ陽性。ヒトの上気道に常在菌として存在することが多い。コロニーが固いためループなどで押すとツルツル滑る（Hockey puck sign）。BRO-1やBRO-2などのClass Aのβ-ラクタマーゼ産生株が多い（ほぼ100%）。",
+        "clinical": "主に小児の急性中耳炎、慢性副鼻腔炎の増悪、成人の慢性閉塞性肺疾患（COPD）増悪の原因菌として重要である。また、免疫抑制患者では肺炎や敗血症を引き起こすこともある。",
+        "diagnosis": "喀痰、鼻咽頭ぬぐい液、中耳液などから分離される。グラム染色でグラム陰性双球菌を確認し、培養で同定する。ヒト血清を含む培地で良好に増殖する。",
+        "treatment": "β-ラクタマーゼ阻害薬配合ペニシリン系薬（アモキシシリン・クラブラン酸やアンピシリン/スルバクタムまたはトシル酸スルタミシリン）やセフトリアキソンなどの第三世代セファロスポリン系薬が第一選択となる。アジスロマイシンやフルオロキノロン系薬も有効である。ただし、定着の場合もあるため、臨床症状に基づいて治療の必要性を判断することが重要である。",
+        "infectionControl": "",
+        "law": "該当なし",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/moraxella-catarrhalis"
+      },
+      "related": []
+    },
+    {
+      "id": "mycobacterium-avium-001",
+      "title": "マイコバクテリウム・アビウム",
+      "entryType": "species",
+      "taxonGenus": "mycobacterium",
+      "species": "avium",
+      "importance": 4,
+      "tags": [
+        "抗酸菌",
+        "MAC",
+        "非結核性抗酸菌",
+        "NTM"
+      ],
+      "summary": "非結核性抗酸菌の代表的病原体。肺感染症の原因菌。",
+      "body": {
+        "bacteriology": "抗酸菌。細胞壁に脂質が豊富に含まれる。酸素を必要とする好気性菌。倍加時間は約15〜20時間と非常に遅い。培養には特殊な培地（小川培地、MGITなど）を用いる。顕微鏡での確認にはZiehl-Neelsen染色や蛍光染色が用いられる。\n*MGIT: Mycobacteria Growth Indicator Tube",
+        "clinical": "肺MAC症の原因菌として最も多い。慢性進行性の肺感染症を引き起こす。免疫不全患者では、全身性感染症（MAC症）を引き起こすこともある。",
+        "diagnosis": "肺MAC症の診断には、臨床症状、画像所見、喀痰培養による同定が必要である。喀痰培養は3回以上行うことが推奨される。",
+        "treatment": "多剤併用療法が必要。一般的には、クラリスロマイシン（またはアジスロマイシン）、エタンブトール、リファンピシンの3剤併用療法が用いられる。治療期間は12ヶ月以上と長期にわたることが多い。",
+        "infectionControl": "特別な感染対策は不要。",
+        "law": "感染症法は該当せず。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/mycobacterium-avium"
+      },
+      "related": [
+        "mycobacterium-intracellulare-001"
+      ]
+    },
+    {
+      "id": "mycobacterium-intracellulare-001",
+      "title": "マイコバクテリウム・イントラセルラーレ",
+      "entryType": "species",
+      "taxonGenus": "mycobacterium",
+      "species": "intracellulare",
+      "importance": 4,
+      "tags": [
+        "抗酸菌",
+        "MAC",
+        "非結核性抗酸菌",
+        "NTM"
+      ],
+      "summary": "非結核性抗酸菌の代表的病原体。肺感染症の原因菌。",
+      "body": {
+        "bacteriology": "以前は、Mycobacterium aviumとともにMycobacterium avium complex（MAC）を形成するとされていたが、現在は別種とされている。抗酸菌。細胞壁に脂質が豊富に含まれる。酸素を必要とする好気性菌。倍加時間は約15〜20時間と非常に遅い。培養には特殊な培地（小川培地、MGITなど）を用いる。顕微鏡での確認にはZiehl-Neelsen染色や蛍光染色が用いられる。\n*MGIT: Mycobacteria Growth Indicator Tube",
+        "clinical": "肺MAC症の原因菌として最も多い。慢性進行性の肺感染症を引き起こす。免疫不全患者では、全身性感染症（MAC症）を引き起こすこともある。西日本では、Mycobacterium aviumよりも多い。",
+        "diagnosis": "肺MAC症の診断には、臨床症状、画像所見、喀痰培養による同定が必要である。喀痰培養は3回以上行うことが推奨される。",
+        "treatment": "多剤併用療法が必要。一般的には、クラリスロマイシン（またはアジスロマイシン）、エタンブトール、リファンピシンの3剤併用療法が用いられる。治療期間は12ヶ月以上と長期にわたることが多い。",
+        "infectionControl": "特別な感染対策は不要。",
+        "law": "感染症法は該当せず。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/mycobacterium-intracellulare"
+      },
+      "related": [
+        "mycobacterium-avium-001"
+      ]
+    },
+    {
+      "id": "mycobacterium-tuberculosis-001",
+      "title": "結核菌",
+      "entryType": "species",
+      "taxonGenus": "mycobacterium",
+      "species": "tuberculosis",
+      "importance": 5,
+      "tags": [
+        "抗酸菌",
+        "結核",
+        "肺結核",
+        "慢性",
+        "LTBI"
+      ],
+      "summary": "結核の原因菌。肺結核の代表的病原体。",
+      "body": {
+        "bacteriology": "抗酸菌。細胞壁に脂質が豊富に含まれる。酸素を必要とする好気性菌。倍加時間は約15〜20時間と非常に遅い。培養には特殊な培地（小川培地、MGITなど）を用いる。顕微鏡での確認にはZiehl-Neelsen染色や蛍光染色が用いられる。\n*MGIT: Mycobacteria Growth Indicator Tube",
+        "clinical": "主な病型は肺結核である。そのほか、リンパ節結核、骨・関節結核、脳膜結核など多部位に感染する。慢性進行性疾患。飛沫核感染（空気感染）する代表的な病原体である。発病前の感染状態を潜在性結核感染症（LTBI）と称し、治療の対象となる。",
+        "diagnosis": "潜在性結核感染症（LTBI）の診断には、ツベルクリン反応やインターフェロン遊離検査（IGRA）を用いる。肺結核の発病診断には、胸部X線検査などの画像検査と、喀痰検査（塗抹、培養、核酸増幅）による同定が必要。\nツベルクリン反応はPPDを皮内注射し、48〜72時間後に硬結の直径を測定する検査。Mantoux法とも呼ばれる。IGRAは、患者の血液中のT細胞が結核菌抗原に反応して産生するインターフェロンγの量を測定する検査。IGRAはツベルクリン反応に比べて予防接種（BCG接種）歴の影響を受けにくい。\n*IGRA: Interferon-Gamma Release Assay\n*PPD: Purified Protein Derivative\n*BCG: Bacillus Calmette-Guérin\n*コッホ現象: BCG接種の反応が強く早く出現する現象で、結核菌感染を示唆する。乳児での結核感染の発見動機として重要である。",
+        "treatment": "多剤併用療法が必要。標準的な初回治療は、イソニアジド（H）、リファンピシン（R）、エタンブトール（E）、ピラジナミド（Z）の4剤併用療法を2ヶ月、その後イソニアジドとリファンピシンの2剤併用療法を4ヶ月行う（計6ヶ月：2HREZ/4HR）。エタンブトールの代わりにストレプトマイシンを用いることもある。薬剤耐性結核の場合は、より長期間かつ多剤併用療法が必要となる。DOTS（直接服薬確認療法）が推奨される。\n多剤耐性結核治療に用いられる抗菌薬として、ベダキリン、デラマニドがある。\n*DOTS: Directly Observed Treatment, Short-course",
+        "infectionControl": "空気予防策が必要。",
+        "law": "結核（2類）",
+        "biosafety": "BSL-3",
+        "lpsn": "https://lpsn.dsmz.de/species/mycobacterium-tuberculosis"
+      },
+      "related": []
+    },
+    {
+      "id": "mycoplasma-pneumoniae-001",
+      "title": "肺炎マイコプラズマ",
+      "entryType": "species",
+      "taxonGenus": "mycoplasma",
+      "species": "pneumoniae",
+      "importance": 5,
+      "tags": [
+        "非定型菌",
+        "非定型肺炎",
+        "異型肺炎"
+      ],
+      "summary": "非定型肺炎の代表的な原因菌。",
+      "body": {
+        "bacteriology": "細胞壁を持たない非常に小さな細菌。培養には特殊な培地が必要で、増殖速度も遅い。",
+        "clinical": "非定型肺炎（異型肺炎）の代表的な原因菌。発熱、頭痛、咽頭痛、咳などの症状を呈する。",
+        "diagnosis": "血清学的検査（抗体検査）が基本。PCRによる分子生物学的検査も可能。",
+        "treatment": "マクロライド系薬、テトラサイクリン系薬、ニューキノロン系薬が有効。",
+        "infectionControl": "飛沫感染に注意。",
+        "law": "マイコプラズマ肺炎（5類・基幹定点・週単位）",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/mycoplasma-pneumoniae"
+      },
+      "related": []
+    },
+    {
+      "id": "neisseria-gonorrhoeae-001",
+      "title": "淋菌",
+      "entryType": "species",
+      "taxonGenus": "neisseria",
+      "species": "gonorrhoeae",
+      "importance": 4,
+      "tags": [
+        "GNC",
+        "グラム陰性球菌",
+        "莢膜",
+        "淋菌感染症",
+        "STI",
+        "性感染症"
+      ],
+      "summary": "淋菌感染症の原因菌",
+      "body": {
+        "bacteriology": "グラム陰性双球菌。低温・高温、乾燥に弱いため、採取後速やかに培養する必要がある。非運動性。好気性または通性嫌気性。カタラーゼ陽性、オキシダーゼ陽性。線毛を有する。莢膜は持たないか、非常に薄い。",
+        "clinical": "淋菌感染症の原因菌。女性では無症状のことが多いが、男性では尿道炎を引き起こすことが多い。放置すると、女性では骨盤内炎症性疾患（PID）、男性では精巣上体炎などを引き起こす可能性がある。PIDが原因で、肝臓の表面に炎症（肝周囲炎）が広がり、右上腹部痛を引き起こす病態を、Fitz-Hugh-Curtis症候群と呼ぶ。クラミジアとの混合感染も多い。新生児では眼感染症（新生児淋菌性結膜炎）を引き起こすことがある。",
+        "diagnosis": "尿道分泌物や膣分泌物から培養で分離される。グラム染色でグラム陰性双球菌を確認することも有用である。NAAT法（核酸増幅検査）も高感度であり、尿検体でも検出可能である。",
+        "treatment": "ペニシリン耐性やキノロン耐性が問題となっている。現在の第一選択薬は第三世代セファロスポリン系薬のセフトリアキソンやアミノグリコシド系薬のスペクチノマイシンである。クラミジアとの混合感染を考慮し、アジスロマイシンやドキシサイクリンの併用が推奨されることもある。治療後の再検査も重要である。",
+        "infectionControl": "院内での感染対策は標準予防策を遵守する。性感染症であるため、性的接触を避けることが重要である。",
+        "law": "淋菌感染症（5類・性感染症定点・月単位）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/neisseria-gonorrhoeae"
+      },
+      "related": []
+    },
+    {
+      "id": "neisseria-meningitidis-001",
+      "title": "髄膜炎菌",
+      "entryType": "species",
+      "taxonGenus": "neisseria",
+      "species": "meningitidis",
+      "importance": 4,
+      "tags": [
+        "GNC",
+        "グラム陰性球菌",
+        "莢膜",
+        "髄膜炎"
+      ],
+      "summary": "髄膜炎の原因菌",
+      "body": {
+        "bacteriology": "グラム陰性双球菌。非運動性。好気性または通性嫌気性。カタラーゼ陽性、オキシダーゼ陽性。ヒトの咽頭に常在菌として存在することが多い。莢膜を有し、血清型はA、B、C、W、Yなどに分類される。感染症の原因となるのは主にA、B、C型である。",
+        "clinical": "髄膜炎の原因菌。日本では稀であるが、海外では流行することがある。特に集団生活をする若年者に多い。症状は発熱、頭痛、嘔吐、項部硬直などである。迅速な診断と治療が必要である。劇症型は敗血症を伴い、ショックや多臓器不全を引き起こすことがある。副腎不全を伴う場合はWaterhouse-Freidrichsen症候群と呼ばれる。侵襲性髄膜炎菌感染症は5類全数として直ちに届け出が必要である。髄膜炎ベルトと呼ばれるアフリカのサハラ砂漠南縁部では、毎年乾季に大規模な流行が発生することがある。また、メッカの巡礼者の間でも流行が報告されている。A群は大流行を引き起こしやすいが、B群は散発例が多い。また、A群は重症例が多いとされる。無症状保菌者は咽頭や鼻腔に菌を保有し、集団生活において感染源となる。保菌率は年齢や地域によって異なるが、欧州では数%との報告もある。",
+        "diagnosis": "髄液培養や血液培養で分離される。グラム染色でグラム陰性双球菌を確認し、培養で同定する。PCR法も有用である。",
+        "treatment": "感受性があればペニシリンGを用いるが、ペニシリン系薬に対する感受性が低下した分離株も増加しているため、必要に応じてセフトリアキソンやセフォタキシムなどの第3世代セファロスポリン系薬剤を用いる。フルオロキノロン系薬やリファンピシンも治療や予防に用いられる。",
+        "infectionControl": "飛沫予防策が必要である。4価莢膜多糖型ワクチンまたは4価結合型ワクチンが利用可能であるが、B型菌をカバーしていない。B型菌に対しては、BexseroやTrumenbaが使用される。",
+        "law": "侵襲性髄膜炎菌感染症（5類全数・直ちに）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/neisseria-meningitidis"
+      },
+      "related": []
+    },
+    {
+      "id": "pseudomonas-aeruginosa-001",
+      "title": "緑膿菌",
+      "entryType": "species",
+      "taxonGenus": "pseudomonas",
+      "species": "aeruginosa",
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "非発酵菌",
+        "院内感染",
+        "バイオフィルム"
+      ],
+      "summary": "非発酵性グラム陰性桿菌で、院内感染の代表的原因菌。",
+      "body": {
+        "bacteriology": "グラム陰性桿菌でブドウ糖非発酵菌。好気性で、青緑色の色素（ピオシアニン）を産生する。",
+        "clinical": "院内肺炎、尿路感染症、創部感染、菌血症などを引き起こす。免疫不全患者で問題となる。",
+        "diagnosis": "培養同定と薬剤感受性試験が必須。",
+        "treatment": "多剤耐性を示すことが多く、抗緑膿菌活性をもつβラクタム系やアミノグリコシド系などを用いる。",
+        "infectionControl": "湿潤環境を介した伝播に注意し、接触予防策を徹底する。",
+        "law": "薬剤耐性緑膿菌感染症（5類・基幹定点・月単位）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/pseudomonas-aeruginosa"
+      },
+      "related": []
+    },
+    {
+      "id": "salmonella-enterica-001",
+      "title": "サルモネラ・エンテリカ",
+      "entryType": "species",
+      "taxonGenus": "salmonella",
+      "species": "enterica",
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "ブドウ糖発酵菌",
+        "腸内細菌目",
+        "チフス"
+      ],
+      "summary": "食中毒の原因菌。腸チフス・パラチフスの原因菌でもある。",
+      "body": {
+        "bacteriology": "グラム陰性桿菌。ブドウ糖発酵菌。血清型により病原性が異なる。Typhiや Paratyphiはヒトに特異的な病原性をもつ。",
+        "clinical": "食品由来の感染症で、特に卵・鶏肉が原因となることが多い。腸管感染症のほか、Typhiや Paratyphiは腸チフス・パラチフスを引き起こす。",
         "diagnosis": "",
         "treatment": "",
         "infectionControl": "",
         "law": "",
         "biosafety": "BSL-2",
-        "lpsn": "https://lpsn.dsmz.de/species/escherichia-coli"
+        "lpsn": "https://lpsn.dsmz.de/species/salmonella-enterica"
       },
-      "related": ["ehec-001", "upec-001"]
+      "related": [
+        "salmonella-typhi-001",
+        "salmonella-paratyphi-001"
+      ]
     },
-
     {
-      "id": "ehec-001",
-      "title": "腸管出血性大腸菌（EHEC）",
-      "entryType": "pathotype",
-      "baseSpecies": "ecoli-001",
-      "labels": ["EHEC", "志賀毒素"],
-      "importance": 4,
-      "tags": ["GNR", "下痢", "HUS"],
-      "summary": "出血性大腸炎を引き起こす大腸菌",
+      "id": "staph-aureus-001",
+      "title": "黄色ブドウ球菌",
+      "entryType": "species",
+      "taxonGenus": "staphylococcus",
+      "species": "aureus",
+      "importance": 5,
+      "tags": [
+        "GPC",
+        "cluster",
+        "化膿性",
+        "毒素"
+      ],
+      "summary": "強い病原性をもつ皮膚常在菌",
       "body": {
-        "clinical": "血性下痢、溶血性尿毒症症候群。",
-        "infectionControl": "食品由来感染に注意。",
-        "law": "感染症法三類感染症。",
-        "biosafety": "BSL-2"
+        "bacteriology": "グラム陽性球菌。ブドウ房状配列。カタラーゼ陽性。コアグラーゼ陽性。",
+        "clinical": "多彩な感染症の原因菌。皮膚軟部組織感染症、菌血症、心内膜炎。",
+        "diagnosis": "塗抹・培養による同定が基本。メチシリン耐性黄色ブドウ球菌（MRSA）に注意。",
+        "treatment": "メチシリン感受性黄色ブドウ球菌（MSSA）ではセファゾリン（第一世代セファロスポリン系薬）が第一選択。MRSAではバンコマイシンなどの抗MRSA薬を使用。\n抗MRSA薬：バンコマイシン、テイコプラニン、リネゾリド、ダプトマイシン、テジゾリド、アルベカシン。",
+        "infectionControl": "",
+        "law": "バンコマイシン耐性黄色ブドウ球菌感染症（5類全数）、メチシリン耐性黄色ブドウ球菌感染症（5類・基幹定点・月単位）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/staphylococcus-aureus"
       },
-      "related": ["ecoli-001"]
+      "related": [
+        "mrsa-001"
+      ]
     },
-
     {
-      "id": "upec-001",
-      "title": "尿路病原性大腸菌（UPEC）",
-      "entryType": "pathotype",
-      "baseSpecies": "ecoli-001",
-      "labels": ["UPEC", "UTI"],
+      "id": "strep-agalactiae-001",
+      "title": "B群レンサ球菌（GBS）",
+      "entryType": "species",
+      "taxonGenus": "streptococcus",
+      "species": "agalactiae",
       "importance": 4,
-      "tags": ["GNR", "UTI", "線毛"],
-      "summary": "尿路感染症を起こす大腸菌",
+      "tags": [
+        "GPC",
+        "chain",
+        "β溶血",
+        "B群",
+        "新生児感染症"
+      ],
+      "summary": "B群β溶血性レンサ球菌。新生児・乳児感染症の重要な原因菌。",
       "body": {
-        "clinical": "膀胱炎、腎盂腎炎。",
-        "biosafety": "BSL-2"
+        "bacteriology": "グラム陽性球菌で連鎖状配列を示す。β溶血性で、Lancefield B群抗原を有する。莢膜多糖は病原性と血清型分類に重要。",
+        "clinical": "新生児敗血症、髄膜炎、肺炎の主要原因。妊婦や高齢者では尿路感染症や菌血症を起こすことがある。",
+        "diagnosis": "培養同定が基本。妊婦では膣・直腸スクリーニングが行われる。",
+        "treatment": "ペニシリン系薬が第一選択。分娩時抗菌薬予防投与が新生児感染症予防に有効。",
+        "infectionControl": "妊婦スクリーニングと分娩時予防投与が重要。",
+        "law": "劇症型溶血性レンサ球菌感染症（5類全数・7日以内）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/streptococcus-agalactiae"
       },
-      "related": ["ecoli-001"]
+      "related": []
     },
-
+    {
+      "id": "strep-pneumo-001",
+      "title": "肺炎球菌",
+      "entryType": "species",
+      "taxonGenus": "streptococcus",
+      "species": "pneumoniae",
+      "importance": 5,
+      "tags": [
+        "GPC",
+        "chain",
+        "莢膜",
+        "市中肺炎",
+        "髄膜炎"
+      ],
+      "summary": "市中肺炎の代表的原因菌",
+      "body": {
+        "bacteriology": "莢膜を有するグラム陽性双球菌。α溶血性。オプトヒン感性。莢膜は主要な病原因子で、100種類以上の血清型が知られる。",
+        "clinical": "市中肺炎の主要な原因菌で、その他、髄膜炎、菌血症、中耳炎、副鼻腔炎なども見られる。侵襲性肺炎球菌感染症（IPD）は、肺炎球菌による侵襲性感染症を指し、無菌検体から菌が分離された場合に診断される。重症型として、Austria症候群（肺炎、髄膜炎、感染性心内膜炎の合併）やWaterhouse-Freidrichsen症候群（副腎不全を伴う劇症型）もある。\nWaterhouse-Freidrichsen症候群は髄膜炎菌感染症でより一般的に見られるが、肺炎球菌感染症でも稀に発生することがある。\n高齢者、乳幼児、免疫抑制状態、脾摘の患者で重症化しやすい。",
+        "diagnosis": "肺炎では喀痰検査（塗抹・培養）が基本。喀痰抗原検査や尿中抗原検査も有用。",
+        "treatment": "ペニシリン系薬が第一選択。ただし、ペニシリン耐性肺炎球菌（PRSP）も存在する。ただし、髄膜炎と非髄膜炎で耐性の基準が異なる。",
+        "infectionControl": "",
+        "law": "侵襲性肺炎球菌感染症（5類全数・7日以内）、ペニシリン耐性肺炎球菌感染症（5類・基幹定点・月単位）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/streptococcus-pneumoniae"
+      },
+      "related": [
+        "cap-001"
+      ]
+    },
+    {
+      "id": "strep-pyogenes-001",
+      "title": "化膿レンサ球菌（GAS）",
+      "entryType": "species",
+      "taxonGenus": "streptococcus",
+      "species": "pyogenes",
+      "importance": 4,
+      "tags": [
+        "GPC",
+        "chain",
+        "β溶血",
+        "A群",
+        "咽頭炎",
+        "壊死性筋膜炎"
+      ],
+      "summary": "A群β溶血性レンサ球菌。急性咽頭炎から劇症感染症まで多彩な病態を引き起こす。",
+      "body": {
+        "bacteriology": "グラム陽性球菌で連鎖状に配列する。β溶血性を示し、Lancefield A群抗原を有する。M蛋白は主要な病原因子で、抗貪食作用をもつ。多くはバシトラシン感受性。\n*strept（連鎖の）+coccus（球菌）、pyo（膿）+genes（産む）。",
+        "clinical": "咽頭炎、扁桃炎、丹毒、蜂窩織炎のほか、壊死性筋膜炎や劇症型溶血性レンサ球菌感染症（STSS）を起こす。続発症として急性糸球体腎炎やリウマチ熱が知られる。",
+        "diagnosis": "迅速抗原検査、培養同定が用いられる。臨床像と迅速検査の併用が重要。",
+        "treatment": "第一選択はペニシリン系薬。重症例ではクリンダマイシン併用が推奨される。",
+        "infectionControl": "標準予防策で対応可能。侵襲性感染症では接触歴の評価が重要。",
+        "law": "劇症型溶血性レンサ球菌感染症（5類全数・7日以内）、A群溶血性レンサ球菌咽頭炎（5類・小児科定点・週単位）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/streptococcus-pyogenes"
+      },
+      "related": []
+    },
+    {
+      "id": "treponema-pallidum-001",
+      "title": "トレポネーマ・パリドゥム",
+      "entryType": "species",
+      "taxonGenus": "treponema",
+      "species": "pallidum",
+      "importance": 4,
+      "tags": [
+        "spirocheta",
+        "スピロヘータ",
+        "性感染症",
+        "STI"
+      ],
+      "summary": "梅毒の原因菌。主に性的接触で感染する。",
+      "body": {
+        "bacteriology": "スピロヘータ。非常に細長いらせん状の形態をとる。培養は困難で、動物感染モデル（ウサギ）で増殖させる。",
+        "clinical": "梅毒は、初期（硬性下疳）、二期（発疹、リンパ節腫脹など）、潜伏、三期（ゴム腫、神経梅毒、心血管梅毒など）に分けられる。母子感染も重要である（先天梅毒）。",
+        "diagnosis": "人工培地での培養はできないため、血清学的検査が中心。非特異的検査（RPR、VDRL）と特異的検査（TPHA、FTA-ABSなど）を組み合わせて行う。\n*STS: Syphilis Treponemal Tests\n*RPR: Rapid Plasma Reagin\n*VDRL: Venereal Disease Research Laboratory\n*TPHA: Treponema Pallidum Hemagglutination Assay\n*FTA-ABS: Fluorescent Treponemal Antibody Absorption test",
+        "treatment": "第一選択はペニシリン系薬。アレルギーがある場合は、ドキシサイクリンやアジスロマイシンが用いられることもある。",
+        "infectionControl": "性感染症対策が重要。感染者の治療とパートナーの検査・治療が必要。",
+        "law": "梅毒（5類全数・7日以内）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/treponema-pallidum"
+      },
+      "related": []
+    },
+    {
+      "id": "vibrio-cholerae-001",
+      "title": "コレラ菌",
+      "entryType": "species",
+      "taxonGenus": "vibrio",
+      "species": "cholerae",
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "湾曲菌",
+        "食中毒",
+        "下痢症"
+      ],
+      "summary": "激しい水様性下痢を引き起こす腸管感染症の原因菌。",
+      "body": {
+        "bacteriology": "グラム陰性の湾曲した桿菌。運動性を有し、アルカリ性環境で増殖しやすい。",
+        "clinical": "コレラ毒素（CT）により大量の水様性下痢を起こし、脱水を来す。コレラ毒素はAB5型毒素で、腸管上皮細胞に作用してcAMPを増加させ、電解質と水の分泌を促進する。",
+        "diagnosis": "便培養による同定が基本。疫学情報が重要。",
+        "treatment": "補液療法が最重要。重症例ではテトラサイクリン系などの抗菌薬が用いられる。",
+        "infectionControl": "水・食品衛生の管理が最重要。",
+        "law": "コレラ（3類・就業制限）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/vibrio-cholerae"
+      },
+      "related": []
+    },
     {
       "id": "enterococcus-genus-001",
       "title": "腸球菌属",
       "entryType": "genus",
       "taxonGenus": "enterococcus",
       "importance": 4,
-      "tags": ["GPC", "chain", "腸内常在菌", "耐性"],
+      "tags": [
+        "GPC",
+        "chain",
+        "腸内常在菌",
+        "耐性"
+      ],
       "summary": "属レベルで臨床的に重要なグラム陽性球菌",
       "body": {
         "bacteriology": "グラム陽性球菌。胆汁エスクリン陽性。",
@@ -136,38 +678,287 @@
         "biosafety": "BSL-2",
         "lpsn": "https://lpsn.dsmz.de/genus/enterococcus"
       },
-      "related": ["vre-001"]
+      "related": [
+        "vre-001",
+        "enterococcus-faecalis-001",
+        "enterococcus-faecium-001"
+      ]
     },
-
+    {
+      "id": "streptococcus-genus-001",
+      "title": "レンサ球菌属",
+      "entryType": "genus",
+      "taxonGenus": "streptococcus",
+      "importance": 2,
+      "tags": [
+        "GPC",
+        "chain"
+      ],
+      "summary": "緑色連鎖球菌を含むその他のレンサ球菌属細菌",
+      "body": {
+        "bacteriology": "グラム陽性球菌。",
+        "clinical": "緑色連鎖球菌（Viridans Streptococcus、口腔内の弱毒のα溶血性連鎖球菌の総称）は口腔内常在菌で、心内膜炎や歯性感染症の原因となることがある。S. dysgalactiae supsp. equisimilisはA群やG群に分類されることがあり、病原性が高い。\n主な菌種：S. dysgalactiae supsp. equisimilis、S. salivarius群、S. mitis群、S. anginosus群、S. mutans群。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/genus/streptococcus"
+      },
+      "related": [
+        "vre-001"
+      ]
+    },
+    {
+      "id": "esbl-001",
+      "title": "ESBL産生菌",
+      "entryType": "clinical_variant",
+      "baseSpecies": "enterococcus-genus-001",
+      "labels": [
+        "ESBL",
+        "β-ラクタマーゼ"
+      ],
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "腸内細菌目細菌",
+        "耐性",
+        "β-lactamase"
+      ],
+      "summary": "ESBL（Extended-Spectrum β-Lactamase）を産生する菌",
+      "body": {
+        "clinical": "主な産生菌は大腸菌、クレブシエラ属菌などの腸内細菌目細菌である。近年増加傾向にある。主な感染症は、尿路感染症や菌血症である。キノロン系薬にも耐性を示すことが多いため、治療にはカルバペネム系抗菌薬が用いられることが多い。\nESBLは基質特異性拡張型β-ラクタマーゼの略で、Ambler分類のクラスAに属する酵素のうち、ペニシリン系薬とセファロスポリン系薬を分解するもの指す。モノバクタム系薬も分解するが、セファマイシン系薬やオキサセフェム系薬、カルバペネム系薬は分解しない。また、タゾバクタムなどのβ-ラクタマーゼ阻害薬で阻害される。\n主なESBLにはTEM型、SHV型、CTX-M型がある。特に近年、CTX-M型が世界的に蔓延しており、CTX-M-9Gが最も多い。",
+        "infectionControl": "基本的には標準予防策であるが、必要に応じて接触予防策をとる。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "ecoli-001",
+        "klebsiella-pneumoniae-001"
+      ]
+    },
+    {
+      "id": "mrsa-001",
+      "title": "MRSA",
+      "entryType": "clinical_variant",
+      "baseSpecies": "staph-aureus-001",
+      "labels": [
+        "MRSA",
+        "βラクタム耐性"
+      ],
+      "importance": 5,
+      "tags": [
+        "GPC",
+        "cluster",
+        "耐性",
+        "mecA",
+        "PBP2a",
+        "院内感染"
+      ],
+      "summary": "メチシリン耐性黄色ブドウ球菌",
+      "body": {
+        "bacteriology": "黄色ブドウ球菌のメチシリン耐性。mecA遺伝子を獲得しており、PBP2aを産生することでβラクタム系薬に対する耐性を示す。",
+        "clinical": "院内感染の代表的耐性菌。\n重要な感染症として、血流感染、手術部位感染、肺炎などがある。",
+        "infectionControl": "接触予防策が重要。",
+        "law": "VRSA感染症は五類全数、MRSA感染症は5類定点。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "staph-aureus-001"
+      ]
+    },
     {
       "id": "vre-001",
       "title": "VRE",
       "entryType": "clinical_variant",
       "baseSpecies": "enterococcus-genus-001",
-      "labels": ["VRE", "バンコマイシン耐性"],
+      "labels": [
+        "VRE",
+        "バンコマイシン耐性"
+      ],
       "importance": 4,
-      "tags": ["GPC", "chain", "耐性"],
+      "tags": [
+        "GPC",
+        "chain",
+        "耐性"
+      ],
       "summary": "バンコマイシン耐性腸球菌",
       "body": {
         "clinical": "院内感染で問題となる。",
         "infectionControl": "接触予防策が重要。",
         "biosafety": "BSL-2"
       },
-      "related": ["enterococcus-genus-001"]
+      "related": [
+        "enterococcus-genus-001"
+      ]
     },
-
+    {
+      "id": "ehec-001",
+      "title": "腸管出血性大腸菌（EHEC）",
+      "entryType": "pathotype",
+      "baseSpecies": "ecoli-001",
+      "labels": [
+        "EHEC",
+        "志賀毒素"
+      ],
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "下痢",
+        "HUS"
+      ],
+      "summary": "出血性大腸炎を引き起こす大腸菌",
+      "body": {
+        "clinical": "血性下痢、溶血性尿毒症症候群。",
+        "infectionControl": "食品由来感染に注意。",
+        "law": "腸管出血性大腸菌感染症（3類・就業制限）。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "ecoli-001"
+      ]
+    },
+    {
+      "id": "salmonella-paratyphiA-001",
+      "title": "パラチフス菌（Salmonella Paratyphi A）",
+      "entryType": "pathotype",
+      "baseSpecies": "salmonella-enterica-001",
+      "labels": [
+        "パラチフス"
+      ],
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "下痢",
+        "発熱",
+        "腸管感染症"
+      ],
+      "summary": "パラチフスの原因菌",
+      "body": {
+        "bacteriology": "サルモネラ属の一種で、グラム陰性桿菌。パラチフスの原因菌。正式名称はSalmonella enterica subsp. enterica serovar. Paratyphi A。Paratyphi BとCは感染症法上の対象外。ブドウ糖を発酵してガスを産生するが、硫化水素は産生しない点で他のサルモネラ属菌と区別される。",
+        "clinical": "腸チフスに類似した症状を呈するが、比較的軽症であることが多い。",
+        "infectionControl": "食品由来感染に注意。",
+        "law": "パラチフス（3類・就業制限）。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "salmonella-enterica-001",
+        "salmonella-typhi-001"
+      ]
+    },
+    {
+      "id": "salmonella-typhi-001",
+      "title": "チフス菌（Salmonella Typhi）",
+      "entryType": "pathotype",
+      "baseSpecies": "salmonella-enterica-001",
+      "labels": [
+        "腸チフス"
+      ],
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "下痢",
+        "発熱",
+        "腸管感染症"
+      ],
+      "summary": "腸チフスの原因菌",
+      "body": {
+        "bacteriology": "サルモネラ属の一種で、グラム陰性桿菌。正式名称はSalmonella enterica subsp. enterica serovar. Typhi。運動性を有し、H抗原、O抗原、Vi抗原をもつ。サルモネラ属の多くは硫化水素を産生（TSI寒天培地で黒変）するが、Typhiはやや弱い。また、ガス産生も認めない。尚、Paratyphiは硫化水素を産生せず、ガス産生は陽性である。",
+        "clinical": "典型的な症状は、弛張熱、チフス様顔貌、バラ疹、比較的徐脈、脾腫。",
+        "infectionControl": "食品由来感染に注意。",
+        "law": "腸チフス（3類・就業制限）。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "salmonella-enterica-001",
+        "salmonella-paratyphiA-001"
+      ]
+    },
+    {
+      "id": "upec-001",
+      "title": "尿路病原性大腸菌（UPEC）",
+      "entryType": "pathotype",
+      "baseSpecies": "ecoli-001",
+      "labels": [
+        "UPEC",
+        "UTI"
+      ],
+      "importance": 4,
+      "tags": [
+        "GNR",
+        "UTI",
+        "線毛"
+      ],
+      "summary": "尿路感染症を起こす大腸菌",
+      "body": {
+        "clinical": "膀胱炎、腎盂腎炎。",
+        "biosafety": "BSL-2"
+      },
+      "related": [
+        "ecoli-001",
+        "uti-001"
+      ]
+    },
     {
       "id": "cap-001",
       "title": "市中肺炎（CAP）",
       "entryType": "concept",
       "importance": 5,
-      "tags": ["肺炎", "初期治療", "鑑別"],
+      "tags": [
+        "肺炎",
+        "細菌性肺炎",
+        "非定型肺炎"
+      ],
       "summary": "市中で発症する肺炎の総称",
       "body": {
-        "clinical": "原因菌を想定した初期治療が重要。",
-        "treatment": "重症度に応じた抗菌薬選択。"
+        "clinical": "3大原因菌は、肺炎球菌、インフルエンザ菌、肺炎マイコプラズマである。β-ラクタム系薬が無効なマイコプラズマ肺炎が非定型肺炎と称されるのに対して、肺炎球菌やインフルエンザ菌による肺炎は細菌性肺炎と呼ばれることがある。\nそのほか肺炎クラミジア、オーム病クラミジア、レジオネラなども重症肺炎の原因となることがあり、またβ-ラクタム系薬が無効なため注意が必要である。\n高齢者や基礎疾患のある患者では、大腸菌、肺炎桿菌、緑膿菌を含むグラム陰性桿菌や黄色ブドウ球菌も重要である。",
+        "treatment": "まず、β-ラクタム系薬が有効な肺炎であるかを鑑別する必要がある。非定型肺炎が疑われる場合は、マクロライド系薬、テトラサイクリン系薬、ニューキノロン系薬などを選択する。経験的治療と標的治療を意識した抗菌薬の選択が必要であり、原因菌が判明した時点では適切な抗菌薬に変更する。スペクトルを上げる変更をエスカレーション、スペクトルを下げる変更をデエスカレーションと呼ぶ。"
       },
-      "related": ["strep-pneumo-001"]
+      "related": [
+        "strep-pneumo-001",
+        "haemophilus-influenzae-001",
+        "mycoplasma-pneumoniae-001",
+        "chlamydia-pneumoniae-001",
+        "legionella-pneumophila-001",
+        "moraxella-catarrhalis-001",
+        "klebsiella-pneumoniae-001",
+        "ecoli-001",
+        "staph-aureus-001",
+        "pseudomonas-aeruginosa-001",
+        "chlamydia-psittaci-001"
+      ]
+    },
+    {
+      "id": "immunology-001",
+      "title": "免疫学",
+      "entryType": "concept",
+      "importance": 5,
+      "tags": [
+        "免疫学",
+        "免疫反応",
+        "免疫系"
+      ],
+      "summary": "生物の体内で病原体や異物に対する防御機構を構成する学問分野",
+      "body": {
+        "clinical": "自然免疫と獲得免疫（適応免疫）の2つの主要なカテゴリーに分けられる。自然免疫は、病原体に対する即時の防御反応を提供し、主に物理的・化学的バリア、食細胞（マクロファージ、好中球）、ナチュラルキラー細胞、補体系などが関与する。一方、獲得免疫は特異的であり、T細胞とB細胞が中心的な役割を果たす。獲得免疫はさらに細胞性免疫と液性免疫に分けられ、前者はT細胞が媒介し、後者はB細胞が産生する抗体によって媒介される。\n疾患との関連では、好中球減少と細胞性免疫の低下の2つを考慮すると理解しやすい。好中球減少は主に細菌感染症や播種性カンジダ症、侵襲性アスペルギルス症のリスク因子である。一方、ステロイドやAIDSなどの細胞性免疫の低下はサイトメガロウイルス感染症、ニューモシスチス肺炎、粘膜カンジダ症、クリプトコックス症のリスク因子である。また、リツキシマブによる極度の液性免疫不全によって潜伏していたB型肝炎ウイルスの活性化が起こることも知られている（de novo肝炎）。\n抗体はIgG、IgA、IgM、IgE、IgDの5種類に分類される。IgGは血清中で最も多く、細菌やウイルスに対する長期的な免疫を提供する。また、胎盤通過性がある。IgAは主に粘膜表面で見られ、呼吸器や消化器の感染防御に重要である。IgMは初期免疫応答で最初に産生される抗体であり、感染初期の防御に寄与する。IgEはアレルギー反応や寄生虫感染に関与し、IgDの機能はまだ完全には解明されていないが、B細胞の活性化に関与していると考えられている。IgAは二量体、IgMは五量体として存在することが特徴である。\n抗体は、H鎖とL鎖から構成され、可変領域と定常領域に分かれる。可変領域は抗原結合部位（Fab）を形成し、多様な抗原に対する特異性を提供する。定常領域は免疫応答のエフェクター機能を媒介し、補体活性化やFc受容体との相互作用を通じて免疫反応を促進する。パパイン消化により、抗体は2つのFab断片と1つのFc断片に分解される。\nFab：Fragment antigen-binding、抗原結合断片\nFc：Fragment crystallizable、結晶化可能断片"
+      },
+      "related": [
+        ""
+      ]
+    },
+    {
+      "id": "uti-001",
+      "title": "尿路感染症（UTI）",
+      "entryType": "concept",
+      "importance": 5,
+      "tags": [
+        "尿路感染症",
+        "泌尿器感染症",
+        "下痢症"
+      ],
+      "summary": "尿路に感染を起こす感染症の総称",
+      "body": {
+        "clinical": "主な原因菌は大腸菌で、他の腸内細菌目細菌（クレブシエラ、プロテウス）などが続く。発熱、排尿痛、頻尿、血尿などの症状を呈する。高齢者では非特異的症状（意識障害、転倒など）で発症することもある。グラム陽性菌としては、Staphylococcus saprophyticusが重要である。Staphylococcus saprophyticusの割合は閉経前と閉経後で異なり、閉経前は閉経後よりもやや多い。\n*尿路は上部尿路（腎盂・尿管）と下部尿路（膀胱・尿道）に分けられる。上部尿路感染症は腎盂腎炎、下部尿路感染症は膀胱炎が代表的である。\n腎盂腎炎では発熱、腰背部痛、悪寒などがみられ、膀胱炎では排尿痛、頻尿、残尿感などがみられる。肋骨脊柱角（CVA）の叩打痛は腎盂腎炎を疑う所見である。また、尿路感染症は男性よりも女性に多い。女性は尿道が短いため、細菌が膀胱に到達しやすいことが主な原因である。細菌尿があっても症状のない場合を無症候性細菌尿と呼び、通常は治療の対象とならないが、妊婦や尿路手術前の患者では治療が必要である。\n検尿では、尿中白血球（尿白血球）や尿中細菌（尿細菌）が検出される。培養で原因菌の同定と薬剤感受性試験が行われる。",
+        "treatment": "外来のみのクリニックでは、使いやすさの観点から経口薬、特に経口のフルオロキノロン系薬の使用が多い。ただし、キノロン耐性や基質特異性拡張型β-ラクタマーゼ（ESBL）産生による第三セファロスポリン耐性の大腸菌の増加に注意が必要である。米国ではST合剤が推奨されているが、日本では耐性率や保険適用の違いにより第一選択とはなりにくい。"
+      },
+      "related": [
+        "upec-001"
+      ]
     }
   ]
 }
