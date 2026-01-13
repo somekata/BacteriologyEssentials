@@ -7,19 +7,20 @@
         "label": "GPC（グラム陽性球菌）",
         "subgroups": [
           {
-            "label": "chain（連鎖）",
-            "items": [
+            "label": "chain（連鎖状）",
+            "items": [              
               "strep-pneumo-001",
-              "enterococcus-genus-001",
-              "strep-agalactiae-001",
               "strep-pyogenes-001",
-              "streptococcus-genus-001",
+              "strep-agalactiae-001",
+              "streptococcus-genus-other-001",
+              "enterococcus-genus-001",
               "enterococcus-faecalis-001",
-              "enterococcus-faecium-001"
+              "enterococcus-faecium-001",
+              "vre-001"
             ]
           },
           {
-            "label": "cluster（ブドウ房状）",
+            "label": "cluster（ブドウ状）",
             "items": [
               "staph-aureus-001",
               "mrsa-001"
@@ -84,7 +85,10 @@
         "items": [
           "bacillus-001",
           "clostridium-001",
-          "listeria-001"
+          "listeria-001",
+          "corynebacterium-diphtheriae-001",
+          "clostridioides-difficile-001",
+          "clostridium-perfringens-001"
         ]
       },
       {
