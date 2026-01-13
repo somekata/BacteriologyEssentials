@@ -685,8 +685,8 @@
       ]
     },
     {
-      "id": "streptococcus-genus-001",
-      "title": "レンサ球菌属",
+      "id": "streptococcus-genus-other-001",
+      "title": "その他のレンサ球菌属",
       "entryType": "genus",
       "taxonGenus": "streptococcus",
       "importance": 2,
@@ -702,7 +702,9 @@
         "lpsn": "https://lpsn.dsmz.de/genus/streptococcus"
       },
       "related": [
-        "vre-001"
+        "strep-pneumo-001",
+        "strep-pyogenes-001",
+        "strep-agalactiae-001"
       ]
     },
     {
