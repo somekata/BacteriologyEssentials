@@ -34,7 +34,7 @@
             "label": "小桿菌",
             "items": [
               "haemophilus-influenzae-001",
-              "bordetella-001"
+              "bordetella-pertussis-001"
             ]
           },
           {
@@ -48,7 +48,8 @@
                   "enterobacter-001",
                   "salmonella-enterica-001",
                   "salmonella-typhi-001",
-                  "salmonella-paratyphi-001"
+                  "salmonella-paratyphiA-001",
+                  "esbl-001"
                 ]
               },
               {
@@ -73,7 +74,9 @@
       {
         "label": "GNC（グラム陰性球菌）",
         "items": [
-          "neisseria-001"
+          "neisseria-meningitidis-001",
+          "neisseria-gonorrhoeae-001",
+          "moraxella-catarrhalis-001"
         ]
       },
       {
