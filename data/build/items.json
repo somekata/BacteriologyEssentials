@@ -1,9 +1,42 @@
 {
   "meta": {
     "generated_by": "build_items.py",
-    "item_count": 36
+    "item_count": 38
   },
   "items": [
+    {
+      "id": "bacillus-anthracis-001",
+      "title": "炭疽菌",
+      "entryType": "species",
+      "taxonGenus": "bacillus",
+      "species": "anthracis",
+      "importance": 5,
+      "tags": [
+        "GPR",
+        "グラム陽性桿菌",
+        "芽胞形成菌",
+        "炭疽"
+      ],
+      "summary": "炭疽の原因菌",
+      "body": {
+        "bacteriology": "グラム陽性桿菌。芽胞形成菌。非運動性。カタラーゼ陽性。ポリDグルタミン酸からなる莢膜を有する。",
+        "clinical": "炭疽は皮膚炭疽、肺炭疽、腸炭疽に分類される。皮膚炭疽は最も多く、皮膚の潰瘍と黒色のかさぶた（炭疽痂皮）を形成する。肺炭疽は重篤であり、初期症状は風邪に似ているが急速に悪化し、呼吸困難やショックを引き起こす。腸炭疽は稀であるが、腹痛、嘔吐、下痢などの消化器症状を呈する。\n国立健康危機管理研究機構感染症情報提供サイト・炭疽：https://id-info.jihs.go.jp/diseases/ta/anthrax/010/index.html",
+        "diagnosis": "塗抹・培養による同定が基本。PCR法や血清学的検査も利用される。",
+        "treatment": "ペニシリン系薬、ドキシサイクリン、シプロフロキサシンなどが有効である。早期治療が重要。",
+        "infectionControl": "接触予防策が重要。炭疽菌は生物兵器としても使用される可能性があるため、適切なバイオセーフティ対策が必要。",
+        "law": "炭疽（4類）。",
+        "biosafety": "BSL-3",
+        "lpsn": "https://lpsn.dsmz.de/species/bacillus-anthracis"
+      },
+      "reference": [
+        {
+          "type": "website",
+          "title": "国立健康危機管理研究機構感染症情報提供サイト・炭疽",
+          "url": "https://id-info.jihs.go.jp/diseases/ta/anthrax/010/index.html"
+        }
+      ],
+      "related": []
+    },
     {
       "id": "bordetella-pertussis-001",
       "title": "百日咳菌",
@@ -54,6 +87,42 @@
         "biosafety": "BSL-2",
         "lpsn": "https://lpsn.dsmz.de/species/campylobacter-jejuni"
       },
+      "related": []
+    },
+    {
+      "id": "clostridioides-difficile-001",
+      "title": "ディフィシル菌",
+      "entryType": "species",
+      "taxonGenus": "clostridioides",
+      "species": "difficile",
+      "importance": 4,
+      "tags": [
+        "GPR",
+        "グラム陽性桿菌",
+        "芽胞形成菌",
+        "嫌気性菌",
+        "抗菌薬関連下痢症",
+        "偽膜性大腸炎",
+        "CDI"
+      ],
+      "summary": "菌交代症として抗菌薬関連下痢症や偽膜性大腸炎の原因となる嫌気性芽胞形成性グラム陽性桿菌。",
+      "body": {
+        "bacteriology": "グラム陽性桿菌。芽胞形成菌で嫌気性。毒素Aと毒素Bを産生する。抗菌薬により腸内細菌叢が乱れると増殖しやすくなる。バイナリトキシン（binary toxin, 二元毒素）を産生する株としてBI/NAP1/027株などが知られる。\n毒素A（エンテロトキシン）は腸管上皮細胞に作用して水分分泌を促進し、毒素B（サイトトキシン）は細胞骨格を破壊して細胞死を引き起こす。\nバイナリトキシンはADPリボシル化酵素で、アクチンの重合を阻害し、細胞骨格の破壊を引き起こす。\nBIはrestriction endonuclease analysis（REA） type BI、NAP1はNorth American Pulsed-field type 1、027はリボタイプ（ribotype, RT）の一つを指す。multilocus sequence typing（MLST）ではST1に分類される。",
+        "clinical": "ディフィシル菌感染症（Clostridioides difficile infection, CDI）として、抗菌薬関連下痢症（antibiotic-associated diarrhea, AAD）や偽膜性大腸炎（pseudomembranous colitis）の原因となる。主な症状は水様性下痢、腹痛、発熱など。重症例では腸管穿孔や中毒性巨大結腸症（toxic megacolon）を引き起こすこともある。",
+        "diagnosis": "便中毒素の検出や培養による同定が行われる。PCR法も利用される。",
+        "treatment": "メトロニダゾールやバンコマイシンが第一選択薬。重症例では外科的治療が必要なこともある。",
+        "infectionControl": "接触予防策として、PPEの着用と環境清掃が重要。クロルヘキシジンやアルコール製剤は芽胞に効果がないため、次亜塩素酸ナトリウムを用いることが推奨される。",
+        "law": "該当なし。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/clostridioides-difficile"
+      },
+      "reference": [
+        {
+          "type": "guideline",
+          "title": "Clostridioides difficile感染症診療ガイドライン2022",
+          "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_cdi_230125.pdf"
+        }
+      ],
       "related": []
     },
     {
@@ -515,7 +584,7 @@
         "diagnosis": "塗抹・培養による同定が基本。メチシリン耐性黄色ブドウ球菌（MRSA）に注意。",
         "treatment": "メチシリン感受性黄色ブドウ球菌（MSSA）ではセファゾリン（第一世代セファロスポリン系薬）が第一選択。MRSAではバンコマイシンなどの抗MRSA薬を使用。\n抗MRSA薬：バンコマイシン、テイコプラニン、リネゾリド、ダプトマイシン、テジゾリド、アルベカシン。",
         "infectionControl": "",
-        "law": "バンコマイシン耐性黄色ブドウ球菌感染症（5類全数）、メチシリン耐性黄色ブドウ球菌感染症（5類・基幹定点・月単位）。",
+        "law": "バンコマイシン耐性黄色ブドウ球菌感染症（5類全数・7日以内）、メチシリン耐性黄色ブドウ球菌感染症（5類・基幹定点・月単位）。",
         "biosafety": "BSL-2",
         "lpsn": "https://lpsn.dsmz.de/species/staphylococcus-aureus"
       },
@@ -757,7 +826,7 @@
         "bacteriology": "黄色ブドウ球菌のメチシリン耐性。mecA遺伝子を獲得しており、PBP2aを産生することでβラクタム系薬に対する耐性を示す。",
         "clinical": "院内感染の代表的耐性菌。\n重要な感染症として、血流感染、手術部位感染、肺炎などがある。",
         "infectionControl": "接触予防策が重要。",
-        "law": "VRSA感染症は五類全数、MRSA感染症は5類定点。",
+        "law": "バンコマイシン耐性黄色ブドウ球菌感染症（5類全数・7日以内）、メチシリン耐性黄色ブドウ球菌感染症（5類・基幹定点・月単位）。",
         "biosafety": "BSL-2"
       },
       "related": [
@@ -783,6 +852,7 @@
       "body": {
         "clinical": "院内感染で問題となる。",
         "infectionControl": "接触予防策が重要。",
+        "law": "バンコマイシン耐性腸球菌感染症（5類全数・7日以内）。",
         "biosafety": "BSL-2"
       },
       "related": [
