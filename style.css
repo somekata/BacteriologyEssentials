@@ -333,3 +333,11 @@ footer .assist{
     text-align: center;
   }
 }
+
+.references{
+  color: rgba(255,255,255,0.8);
+}
+
+.references li{
+  margin-bottom: 4px;
+}

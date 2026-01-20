@@ -210,7 +210,25 @@ function showItem(item) {
 
   // (7) body sections（item.body を優先表示）
   html += renderBodySections(item);
+  // (7.5) reference
+  if (item.reference?.length) {
+    html += `
+      <hr>
+      <h3>参考文献</h3>
+      <ul class="references">
+    `;
+    item.reference.forEach(ref => {
+      const title = escapeHTML(ref.title || "");
+      const url = ref.url ? escapeAttr(ref.url) : null;
 
+      if (url) {
+        html += `<li><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></li>`;
+      } else {
+        html += `<li>${title}</li>`;
+      }
+    });
+    html += "</ul>";
+  }
   // concept の場合、必要なら base species の本文も見られるようリンクだけ用意
   if (item.entryType !== "species") {
     const base = resolved;
