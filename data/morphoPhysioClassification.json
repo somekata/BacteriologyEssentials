@@ -83,7 +83,7 @@
       {
         "label": "GPR（グラム陽性桿菌）",
         "items": [
-          "bacillus-001",
+          "bacillus-anthracis-001",
           "clostridium-001",
           "listeria-001",
           "corynebacterium-diphtheriae-001",

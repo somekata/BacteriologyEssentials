@@ -184,6 +184,26 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "id": "peptostreptococcales",
+                  "rank": "order",
+                  "label": "Peptostreptococcales",
+                  "children": [
+                    {
+                      "id": "peptostreptococcaceae",
+                      "rank": "family",
+                      "label": "Peptostreptococcaceae",
+                      "children": [
+                        {
+                          "id": "clostridioides",
+                          "rank": "genus",
+                          "label": "Clostridioides",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
