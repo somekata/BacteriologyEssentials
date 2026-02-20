@@ -1,7 +1,7 @@
 {
   "meta": {
     "generated_by": "build_items.py",
-    "item_count": 38
+    "item_count": 40
   },
   "items": [
     {
@@ -55,12 +55,19 @@
         "bacteriology": "グラム陰性小桿菌。多形性を示す。運動性はない。好気性。",
         "clinical": "百日咳の原因菌。幼児に多い。ワクチンで予防可能。全菌体ワクチン（wP）は副反応が多かったため、現在は無細胞ワクチン（aP）が用いられる。3種混合DTaP（ジフテリア・破傷風・無細胞百日咳）、4種混合DTaP-IPV（ポリオ追加）、5種混合DTaP-IPV-Hib（Hib追加）などがある。",
         "diagnosis": "培養も可能であるが、PCR法や血清学的診断が一般的。培養には特殊な培地（Bordet-Gengou培地）が必要。",
-        "treatment": "抗菌薬として、アジスロマイシンなどのマクロライド系薬が用いられる。ただし、近年、マクロライド耐性百日咳菌（MRBP）の出現が報告されている。\n*MRBP: Macrolide-Resistant Bordetella Pertussisで、23SrRNAのA2047G変異を有する。中国ではMRBPが流行し、アジア地域への拡散が危惧されている。欧米でも散発例が知られているが、大規模な流行は世界で初めてのことである。反復配列多型解析（MLVA）法により、中国のMRBPは主に3種類の遺伝子型（MT55、MT104、MT195）に分類される。台湾、ベトナム、日本でも、MT104やMT195、またはその亜型に分類される株が分離されている（https://id-info.jihs.go.jp/niid/ja/typhi-m/iasr-reference/10457-496r04.html）。",
+        "treatment": "抗菌薬として、アジスロマイシンなどのマクロライド系薬が用いられる。ただし、近年、マクロライド耐性百日咳菌（MRBP）の出現が報告されている。\n*MRBP: Macrolide-Resistant Bordetella Pertussisで、23SrRNAのA2047G変異を有する。中国ではMRBPが流行し、アジア地域への拡散が危惧されている。欧米でも散発例が知られているが、大規模な流行は世界で初めてのことである。反復配列多型解析（MLVA）法により、中国のMRBPは主に3種類の遺伝子型（MT55、MT104、MT195）に分類される。台湾、ベトナム、日本でも、MT104やMT195、またはその亜型に分類される株が分離されている（参考文献1）。",
         "infectionControl": "飛沫予防策が必要である。基本再生産数（R0）は20程度とされており、感染力は非常に強い。",
         "law": "百日咳（5類全数・7日以内）。",
         "biosafety": "BSL-2",
         "lpsn": "https://lpsn.dsmz.de/species/bordetella-pertussis"
       },
+      "reference": [
+        {
+          "type": "website",
+          "title": "IASR, アジアにおけるマクロライド耐性百日咳菌の検出状況",
+          "url": "https://id-info.jihs.go.jp/niid/ja/typhi-m/iasr-reference/10457-496r04.html"
+        }
+      ],
       "related": []
     },
     {
@@ -121,6 +128,38 @@
           "type": "guideline",
           "title": "Clostridioides difficile感染症診療ガイドライン2022",
           "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_cdi_230125.pdf"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "corynebacterium_diphtheriae-001",
+      "title": "ジフテリア菌",
+      "entryType": "species",
+      "taxonGenus": "corynebacterium",
+      "species": "diphtheriae",
+      "importance": 4,
+      "tags": [
+        "GPR",
+        "グラム陽性桿菌",
+        "ジフテリア"
+      ],
+      "summary": "ジフテリアの原因菌",
+      "body": {
+        "bacteriology": "グラム陽性桿菌。芽胞非形成菌。非運動性。カタラーゼ陽性。ジフテリア毒素を産生する株が病原性を有する。亜種として、C. diphtheriae subsp. diphtheriae、C. diphtheriae subsp. lausannenseがあるが、ジフテリアの原因となるのは前者である。また、biotypeとして、gravis、mitis、intermedius、belfantiが知られている。",
+        "clinical": "咽頭の偽膜を伴う咽頭ジフテリアが典型的である。そのほかの病型として、皮膚ジフテリアがある。咽頭ジフテリアは発熱、咽頭痛、偽膜形成、嗄声などを呈する疾患である。皮膚ジフテリアでは、発疹や潰瘍などを呈する。心筋炎や神経麻痺などの合併症を起こすことがある。近年、類縁種であるCorynebacterium ulceransやCorynebacterium pseudotuberculosisもジフテリア毒素を産生し、ヒトにジフテリア様疾患を引き起こすことが報告されている。ただし、届出はC. diphtheriae感染症のみが対象となる。",
+        "diagnosis": "塗抹・培養による同定が基本。PCRによるジフテリア毒素遺伝子の検出、培養細胞を用いたジフテリア毒素の検出などが行われる。免疫沈降法（Elekテスト）も知られる。",
+        "treatment": "ペニシリン系薬、マクロライド系薬が有効である。ジフテリア抗毒素の投与が必要な場合もある。",
+        "infectionControl": "感染経路は、主に飛沫感染や接触感染である。ワクチンにより予防可能である。",
+        "law": "ジフテリア（2類）。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/corynebacterium-diphtheriae"
+      },
+      "reference": [
+        {
+          "type": "website",
+          "title": "国立健康危機管理研究機構感染症情報提供サイト・ジフテリア",
+          "url": "https://id-info.jihs.go.jp/infectious-diseases/diphtheria/index.html"
         }
       ],
       "related": []
@@ -322,6 +361,40 @@
       "related": []
     },
     {
+      "id": "listeria-monocytogenes-001",
+      "title": "リステリア・モノサイトゲネス",
+      "entryType": "species",
+      "taxonGenus": "listeria",
+      "species": "monocytogenes",
+      "importance": 3,
+      "tags": [
+        "GPR",
+        "グラム陽性桿菌",
+        "髄膜炎",
+        "周産期リステリア症",
+        "食中毒"
+      ],
+      "summary": "リステリア感染症の原因菌",
+      "body": {
+        "bacteriology": "グラム陽性小桿菌。芽胞非形成菌（無芽胞菌）。30℃以下で運動性を示す。マクロファージ内で増殖可能。低温（4℃）でも増殖可能である。",
+        "clinical": "リステリア感染症の原因菌。主に食中毒として知られる。主な感染経路は、病原体に汚染された乳製品や加工肉などの摂取による経口感染、および母子感染である。発熱や頭痛などの症状を呈し、重症化すると髄膜炎や敗血症を起こす。周産期の感染症として、妊娠中の女性や免疫不全者に重症化しやすい。母子感染の場合は流産や早産の原因となる。新生児の髄膜炎の原因菌としても知られる。潜伏期間は様々で、1日から3週間と長い場合もある。発熱、頭痛、嘔吐などを呈し、重症化すると意識障害や痙攣を伴う髄膜炎や敗血症を起こす。特に妊婦では胎児に垂直感染が起こり、流産や早産を引き起こす。欧米では未殺菌乳やナチュラルチーズ、サラダなどの食品を介した集団発生が多数報告されている。",
+        "diagnosis": "髄液や血液からの菌の分離・同定、遺伝子検出、血清学的検査による。",
+        "treatment": "セフェム系薬に自然耐性である。抗菌薬が使用される機会は限られるが、ペニシリン系薬が有効である。",
+        "infectionControl": "食中毒の予防には、食品の適切な加熱が重要である。",
+        "law": "感染症法・学校保健安全法の対象ではないが、食品衛生法における病因物質に定められている。",
+        "biosafety": "BSL-2",
+        "lpsn": "https://lpsn.dsmz.de/species/listeria-monocytogenes"
+      },
+      "reference": [
+        {
+          "type": "website",
+          "title": "国立健康危機管理研究機構感染症情報提供サイト・リステリア症",
+          "url": "https://id-info.jihs.go.jp/infectious-diseases/listeriosis/index.html"
+        }
+      ],
+      "related": []
+    },
+    {
       "id": "moraxella-catarrhalis-001",
       "title": "モラクセラ・カタラリス",
       "entryType": "species",
@@ -473,14 +546,26 @@
       "summary": "淋菌感染症の原因菌",
       "body": {
         "bacteriology": "グラム陰性双球菌。低温・高温、乾燥に弱いため、採取後速やかに培養する必要がある。非運動性。好気性または通性嫌気性。カタラーゼ陽性、オキシダーゼ陽性。線毛を有する。莢膜は持たないか、非常に薄い。",
-        "clinical": "淋菌感染症の原因菌。女性では無症状のことが多いが、男性では尿道炎を引き起こすことが多い。放置すると、女性では骨盤内炎症性疾患（PID）、男性では精巣上体炎などを引き起こす可能性がある。PIDが原因で、肝臓の表面に炎症（肝周囲炎）が広がり、右上腹部痛を引き起こす病態を、Fitz-Hugh-Curtis症候群と呼ぶ。クラミジアとの混合感染も多い。新生児では眼感染症（新生児淋菌性結膜炎）を引き起こすことがある。",
+        "clinical": "淋菌感染症の原因菌。女性では無症状のことが多いが、男性では尿道炎を引き起こすことが多い。放置すると、女性では骨盤内炎症性疾患（PID）、男性では精巣上体炎などを引き起こす可能性がある。PIDが原因で、肝臓の表面に炎症（肝周囲炎）が広がり、右上腹部痛を引き起こす病態を、Fitz-Hugh-Curtis症候群と呼ぶ。クラミジアとの混合感染も多い。新生児では眼感染症（新生児淋菌性結膜炎）を引き起こすことがある。播種性淋菌感染症（disseminated gonococcal infection, DGI）を引き起こすこともある。補体の膜侵襲複合体（membrane attack complex, MAC）がナイセリア属の外膜に穿孔するため、補体欠損症やエクリズマブ（抗C5抗体）の使用、および脾摘はDGIのリスク因子となる。同様に、同じナイセリア属である髄膜炎菌感染症においても、補体欠損は重要なリスク因子である。",
         "diagnosis": "尿道分泌物や膣分泌物から培養で分離される。グラム染色でグラム陰性双球菌を確認することも有用である。NAAT法（核酸増幅検査）も高感度であり、尿検体でも検出可能である。",
-        "treatment": "ペニシリン耐性やキノロン耐性が問題となっている。現在の第一選択薬は第三世代セファロスポリン系薬のセフトリアキソンやアミノグリコシド系薬のスペクチノマイシンである。クラミジアとの混合感染を考慮し、アジスロマイシンやドキシサイクリンの併用が推奨されることもある。治療後の再検査も重要である。",
+        "treatment": "ペニシリン系薬、テトラサイクリン系薬、キノロン系薬などの抗菌薬に対する耐性が問題となっている。セフトリアキソンやスペクチノマイシン耐性は稀。現在の第一選択薬は第三世代セファロスポリン系薬のセフトリアキソンやアミノグリコシド系薬のスペクチノマイシンである。クラミジアとの混合感染を考慮し、アジスロマイシンやドキシサイクリンの併用が推奨されることもある。治療後の再検査も重要である。2025年12月12日、米国FDAは、セフトリアキソン耐性の淋菌感染症に対して、新薬であるスピロピリミジントリオン系のzoliflodacinおよび三環式トリアザアセナフチレン系のgepotidacinを承認した。",
         "infectionControl": "院内での感染対策は標準予防策を遵守する。性感染症であるため、性的接触を避けることが重要である。",
         "law": "淋菌感染症（5類・性感染症定点・月単位）。",
         "biosafety": "BSL-2",
         "lpsn": "https://lpsn.dsmz.de/species/neisseria-gonorrhoeae"
       },
+      "reference": [
+        {
+          "type": "website",
+          "title": "淋菌感染症",
+          "url": "https://jssti.jp/pdf/guideline2008/02-2.pdf"
+        },
+        {
+          "type": "website",
+          "title": "ゾリフロダシン",
+          "url": "https://gardp.org/wp-content/uploads/2025/12/JP_PR-Zoli-FDA-Approval-and-Lancet-FINAL.pdf"
+        }
+      ],
       "related": []
     },
     {
